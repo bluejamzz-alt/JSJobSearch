@@ -1,0 +1,199 @@
+# ============================================================================
+# JSJobSearch configuration
+# Edit this file to change what is searched, how postings are graded,
+# and where the digest is sent. Secrets (passwords, API keys) never go here;
+# they are read from environment variables / GitHub Actions secrets.
+# ============================================================================
+
+profile:
+  name: Jeremy
+  timezone: Asia/Singapore
+
+# ---------------------------------------------------------------------------
+# What to search for. Every query is run against every enabled source.
+# ---------------------------------------------------------------------------
+search:
+  queries:
+    - business development manager
+    - business development executive
+    - sales manager
+    - account executive
+    - sales executive
+  location: Singapore
+  posted_within_days: 7        # ask sources for postings no older than this
+  max_results_per_query: 60    # per source, per query
+
+# ---------------------------------------------------------------------------
+# Job boards. Sources listed first win when the same posting appears on
+# several boards (same title + company).
+# ---------------------------------------------------------------------------
+sources:
+  mycareersfuture:
+    enabled: true
+    endpoint: https://api.mycareersfuture.gov.sg/v2/search
+    page_size: 100
+    max_pages: 2
+  jobstreet:
+    enabled: true
+    endpoint: https://sg.jobstreet.com/api/jobsearch/v5/search
+    page_size: 30
+    max_pages: 2
+    fetch_details: false       # true = also open each job page for the full description (slower)
+  linkedin:
+    enabled: true
+    endpoint: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search
+    max_pages: 2               # 25 results per page
+    fetch_details: true        # needed for description, seniority and employment type
+    max_details: 40            # cap detail fetches per run to stay polite
+    delay_seconds: 1.5
+  adzuna:
+    enabled: false             # set true after adding ADZUNA_APP_ID / ADZUNA_APP_KEY
+    country: sg
+    page_size: 50
+    max_pages: 1
+  jooble:
+    enabled: false             # set true after adding JOOBLE_API_KEY
+    max_pages: 1
+
+# ---------------------------------------------------------------------------
+# Requirements. Each one is a check that either passes or fails for a posting.
+#   weight       how much it counts toward the score (default 1)
+#   must_have    if it fails, the posting is excluded (see grading.must_have_failure)
+#   unknown      what to do when the posting does not state the information:
+#                "unmet" (default) or "met"
+# ---------------------------------------------------------------------------
+requirements:
+  - id: title
+    description: Title is a target role
+    type: title_keywords
+    must_have: true
+    values:
+      - business development
+      - "bd manager"
+      - bdm
+      - sales manager
+      - account executive
+      - sales executive
+
+  - id: industry
+    description: Fintech / payments / SME / merchant domain
+    type: description_keywords
+    min_matches: 1
+    values:
+      - fintech
+      - payment
+      - payments
+      - SME
+      - SMEs
+      - merchant
+      - merchants
+
+  - id: no_excluded_terms
+    description: No excluded terms in title
+    type: exclude_keywords
+    must_have: true
+    scope: title               # title | title_and_description
+    values:
+      - intern
+      - internship
+      - telemarketing
+      - telesales
+      - commission only
+      - commission-only
+
+  - id: salary
+    description: Salary at least SGD 4,000 / month
+    type: salary_min
+    value: 4000
+    currency: SGD
+    compare: max               # max = pass if the top of the stated range reaches 4,000
+    unknown: unmet             # postings that hide salary do not get the point
+
+  - id: location
+    description: Based in Singapore
+    type: location
+    must_have: true
+    unknown: met               # all enabled sources are Singapore-scoped
+    values:
+      - singapore
+      - sg
+
+  - id: arrangement
+    description: On-site, hybrid or remote
+    type: work_arrangement
+    unknown: met
+    values:
+      - on-site
+      - hybrid
+      - remote
+
+  - id: seniority
+    description: Manager / senior executive / executive / junior executive level
+    type: seniority
+    unknown: met
+    values:
+      - manager
+      - senior executive
+      - executive
+      - junior executive
+
+  - id: employment_type
+    description: Full-time / permanent
+    type: employment_type
+    unknown: met
+    values:
+      - full time
+      - full-time
+      - permanent
+
+  - id: freshness
+    description: Posted within the last 7 days
+    type: posted_within_days
+    value: 7
+    unknown: met
+
+  - id: company
+    description: Not an excluded company
+    type: company_exclude
+    must_have: true
+    values: []                 # e.g. ["Finylle", "Raptor"]
+
+# ---------------------------------------------------------------------------
+# Grading: score = requirements met / total (weighted), shown as "7 of 10 met (70%)".
+# ---------------------------------------------------------------------------
+grading:
+  tiers:
+    A: 80                      # score >= 80% -> Tier A
+    B: 60
+    C: 40                      # below 40% -> Tier D (not reported)
+  min_tier_to_report: C
+  must_have_failure: exclude   # exclude | cap_c
+
+# Optional: let Claude read each shortlisted posting and add a 0-100 fit score.
+# Off by default. Needs ANTHROPIC_API_KEY. Only graded jobs at/above
+# min_tier_to_report are sent, so cost stays small.
+ai_grading:
+  enabled: false
+  model: claude-opus-5
+  effort: low
+  weight: 0.3                  # final = 0.7 * rule score + 0.3 * AI score
+  affects_tier: false          # true = tiers are computed from the blended score
+  max_jobs: 40
+
+# ---------------------------------------------------------------------------
+# Delivery
+# ---------------------------------------------------------------------------
+delivery:
+  reports_dir: reports
+  include_seen: false          # true = repeat postings already sent in earlier digests
+  email:
+    enabled: true
+    to_env: EMAIL_TO           # comma-separated list allowed
+    subject: "Job Digest {date}: {count} new matches ({tier_a} Tier A)"
+    send_when_empty: false
+  telegram:
+    enabled: false
+    tiers: [A]                 # which tiers to push
+
+storage:
+  seen_file: data/seen_jobs.json

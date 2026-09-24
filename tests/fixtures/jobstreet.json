@@ -1,0 +1,17 @@
+{
+  "totalCount": 1,
+  "data": [
+    {
+      "id": "80123456",
+      "title": "Account Executive – Merchant Solutions",
+      "advertiser": {"id": "1", "description": "Global Pay Singapore"},
+      "listingDate": "2026-09-22T02:10:00Z",
+      "salary": "$4,000 – $6,500 per month",
+      "teaser": "Own merchant acquisition for SMEs in the F&amp;B and retail space.",
+      "bulletPoints": ["Hybrid working", "Uncapped commission on top of base"],
+      "workTypes": ["Full time"],
+      "locations": [{"label": "Central Region"}],
+      "workArrangements": {"data": [{"label": {"text": "Hybrid"}}]}
+    }
+  ]
+}

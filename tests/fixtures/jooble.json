@@ -1,0 +1,17 @@
+{
+  "totalCount": 1,
+  "jobs": [
+    {
+      "id": 9001,
+      "title": "Senior Sales Executive (SME)",
+      "location": "Singapore",
+      "snippet": "Acquire SME clients for our fintech lending platform.",
+      "salary": "SGD 4.5k - 6k per month",
+      "source": "example.com",
+      "type": "Full-time",
+      "link": "https://jooble.org/jdp/9001",
+      "company": "Lendly",
+      "updated": "2026-09-23T00:00:00Z"
+    }
+  ]
+}

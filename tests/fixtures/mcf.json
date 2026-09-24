@@ -1,0 +1,32 @@
+{
+  "total": 2,
+  "results": [
+    {
+      "uuid": "0f1a2b3c4d5e6f708192a3b4c5d6e7f8",
+      "title": "Business Development Manager (Payments)",
+      "description": "<p>We are a fast-growing <b>fintech</b> serving SME merchants across Singapore.</p><ul><li>Hybrid work arrangement</li><li>Drive merchant acquisition</li></ul>",
+      "postedCompany": {"name": "ACME PAYMENTS PTE. LTD."},
+      "salary": {"minimum": 4500, "maximum": 7000, "type": {"salaryType": "Monthly"}},
+      "employmentTypes": [{"employmentType": "Full Time"}, {"employmentType": "Permanent"}],
+      "positionLevels": [{"position": "Manager"}],
+      "categories": [{"category": "Sales / Retail"}],
+      "metadata": {
+        "jobPostId": "MCF-2026-0123456",
+        "newPostingDate": "2026-09-20",
+        "originalPostingDate": "2026-09-20",
+        "jobDetailsUrl": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-payments-acme-payments-0f1a2b3c4d5e6f708192a3b4c5d6e7f8"
+      }
+    },
+    {
+      "uuid": "ffffffffffffffffffffffffffffffff",
+      "title": "Sales Intern",
+      "description": "<p>Internship for students.</p>",
+      "postedCompany": {"name": "Some Startup"},
+      "salary": {"minimum": 1000, "maximum": 1200, "type": {"salaryType": "Monthly"}},
+      "employmentTypes": [{"employmentType": "Internship"}],
+      "positionLevels": [{"position": "Fresh/entry level"}],
+      "categories": [{"category": "Sales / Retail"}],
+      "metadata": {"jobPostId": "MCF-2026-0999999", "newPostingDate": "2026-09-21"}
+    }
+  ]
+}

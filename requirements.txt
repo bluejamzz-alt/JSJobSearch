@@ -1,0 +1,5 @@
+requests>=2.31
+PyYAML>=6.0
+beautifulsoup4>=4.12
+# Optional: AI grading (only used when ai_grading.enabled is true and ANTHROPIC_API_KEY is set)
+anthropic>=0.40

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+# local scratch reports (the daily ones in reports/ are committed by the workflow)
+reports/*.tmp
