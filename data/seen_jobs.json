@@ -1,5 +1,13 @@
 {
   "jobs": {
+    "jobstreet:93046806": {
+      "company": "Private Advertiser",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Banking Sales Executive | Up to $10K | Training Provided",
+      "url": "https://sg.jobstreet.com/job/93046806"
+    },
     "jobstreet:94260756": {
       "company": "Changi Airport Group (Singapore) Pte. Ltd.",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -15,6 +23,14 @@
       "tier": "A",
       "title": "Business Development & Merchandising Manager \u2013 Apparel OEM",
       "url": "https://sg.jobstreet.com/job/94480730"
+    },
+    "jobstreet:94704088": {
+      "company": "Travel Star Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Executive  (TRAVEL OPPORTUNITIES)",
+      "url": "https://sg.jobstreet.com/job/94704088"
     },
     "jobstreet:94869682": {
       "company": "Hs Electric Bus Pte. Ltd.",
@@ -408,6 +424,174 @@
       "title": "Sales Manager",
       "url": "https://sg.jobstreet.com/job/94900041"
     },
+    "jobstreet:94905494": {
+      "company": "WKS Industrial Gas Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94905494"
+    },
+    "jobstreet:94905948": {
+      "company": "CIVIL SERVICE CLUB",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Executive",
+      "url": "https://sg.jobstreet.com/job/94905948"
+    },
+    "jobstreet:94907506": {
+      "company": "Eber",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Software Company)",
+      "url": "https://sg.jobstreet.com/job/94907506"
+    },
+    "jobstreet:94907756": {
+      "company": "Huawei International Pte. Ltd.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 70.0,
+      "tier": "B",
+      "title": "Sales Account Executive (Consumer Business Group)",
+      "url": "https://sg.jobstreet.com/job/94907756"
+    },
+    "jobstreet:94908270": {
+      "company": "SEVENS GROUP PTE LTD",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Property Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94908270"
+    },
+    "jobstreet:94908400": {
+      "company": "Omni-Health Pte Ltd.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Solutions Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94908400"
+    },
+    "jobstreet:94908765": {
+      "company": "The GMP Group",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive (Automative Finance)",
+      "url": "https://sg.jobstreet.com/job/94908765"
+    },
+    "jobstreet:94909421": {
+      "company": "Dynamic Human Capital Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Fire Safety Solutions / Fire Systems)",
+      "url": "https://sg.jobstreet.com/job/94909421"
+    },
+    "jobstreet:94909625": {
+      "company": "Align Recruitment Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Logistics Key Account Executive (Ubi)",
+      "url": "https://sg.jobstreet.com/job/94909625"
+    },
+    "jobstreet:94909865": {
+      "company": "JMC CAPITAL ASSET MANAGEMENT SINGAPORE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager",
+      "url": "https://sg.jobstreet.com/job/94909865"
+    },
+    "jobstreet:94911171": {
+      "company": "DIAMOND SKY OIL PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Direct Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94911171"
+    },
+    "jobstreet:94911218": {
+      "company": "Hyperlink Services Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94911218"
+    },
+    "jobstreet:94911267": {
+      "company": "CHINA HARBOUR (SINGAPORE) ENGINEERING COMPANY PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 70.0,
+      "tier": "B",
+      "title": "Senior Manager, Business Development",
+      "url": "https://sg.jobstreet.com/job/94911267"
+    },
+    "jobstreet:94911356": {
+      "company": "Valuemax Group Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Lead (Precious Metal)",
+      "url": "https://sg.jobstreet.com/job/94911356"
+    },
+    "jobstreet:94912113": {
+      "company": "PERSOL",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager \u2013 Technology Services & Outsourcing",
+      "url": "https://sg.jobstreet.com/job/94912113"
+    },
+    "jobstreet:94912276": {
+      "company": "The Supreme HR Advisory Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Key Account Sales Executive \u3010FMCG / Modern Trade / Supermarket\u3011",
+      "url": "https://sg.jobstreet.com/job/94912276"
+    },
+    "jobstreet:94913269": {
+      "company": "Nexus Digital Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 100.0,
+      "tier": "A",
+      "title": "Business Development Executive (Uncapped Recurring Income)",
+      "url": "https://sg.jobstreet.com/job/94913269"
+    },
+    "jobstreet:94913597": {
+      "company": "Innovation Organization Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Customer Engagement & Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/94913597"
+    },
+    "jobstreet:94913891": {
+      "company": "InTech Services Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94913891"
+    },
+    "jobstreet:94914067": {
+      "company": "Active Lifestyle Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Executive",
+      "url": "https://sg.jobstreet.com/job/94914067"
+    },
+    "jobstreet:94914138": {
+      "company": "Talent Spot Group Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Freight Sales Executive",
+      "url": "https://sg.jobstreet.com/job/94914138"
+    },
     "linkedin:4242239954": {
       "company": "UPS",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -415,6 +599,14 @@
       "tier": "A",
       "title": "Account Executive (Sales & Solutions)",
       "url": "https://sg.linkedin.com/jobs/view/account-executive-sales-solutions-at-ups-4242239954"
+    },
+    "linkedin:4242241832": {
+      "company": "UPS",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Area Sales Manager",
+      "url": "https://sg.linkedin.com/jobs/view/area-sales-manager-at-ups-4242241832"
     },
     "linkedin:4242246450": {
       "company": "UPS",
@@ -544,6 +736,14 @@
       "title": "Account Executive",
       "url": "https://sg.linkedin.com/jobs/view/account-executive-at-ivalua-4416430509"
     },
+    "linkedin:4427183218": {
+      "company": "TEAM, Inc.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Manager, Asia",
+      "url": "https://sg.linkedin.com/jobs/view/sales-manager-asia-at-team-inc-4427183218"
+    },
     "linkedin:4435558855": {
       "company": "Freshworks",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -551,6 +751,14 @@
       "tier": "A",
       "title": "Account Executive (PH territory based in Singapore)",
       "url": "https://sg.linkedin.com/jobs/view/account-executive-ph-territory-based-in-singapore-at-freshworks-4435558855"
+    },
+    "linkedin:4436897758": {
+      "company": "BIT Official",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "BD Manager, Payments & OTC",
+      "url": "https://sg.linkedin.com/jobs/view/bd-manager-payments-otc-at-bit-official-4436897758"
     },
     "linkedin:4439978995": {
       "company": "Infobip",
@@ -567,6 +775,14 @@
       "tier": "A",
       "title": "Sales Executive (MICE) - Conrad Singapore Marina Bay",
       "url": "https://sg.linkedin.com/jobs/view/sales-executive-mice-conrad-singapore-marina-bay-at-hilton-4441417862"
+    },
+    "linkedin:4441551958": {
+      "company": "Airwallex",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Account Executive, SME & Growth (Spend)",
+      "url": "https://sg.linkedin.com/jobs/view/account-executive-sme-growth-spend-at-airwallex-4441551958"
     },
     "linkedin:4441823334": {
       "company": "SITA",
@@ -711,6 +927,14 @@
       "tier": "A",
       "title": "Business Development Manager Simulation",
       "url": "https://sg.linkedin.com/jobs/view/business-development-manager-simulation-at-aveva-4459759572"
+    },
+    "linkedin:4460253309": {
+      "company": "PancakeSwap",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager(Liquidity Hub\uff09",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-manager-liquidity-hub%EF%BC%89-at-pancakeswap-4460253309"
     },
     "linkedin:4460285344": {
       "company": "Gong",
@@ -1208,6 +1432,70 @@
       "title": "Business Development Executive \u2013 Enterprise AI",
       "url": "https://sg.linkedin.com/jobs/view/business-development-executive-%E2%80%93-enterprise-ai-at-set-sail-a-i-4471077617"
     },
+    "linkedin:4471083610": {
+      "company": "The Smart Local (TSL) Media Group",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Executive (Advertising Sales)",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-executive-advertising-sales-at-the-smart-local-tsl-media-group-4471083610"
+    },
+    "linkedin:4471089678": {
+      "company": "uParcel",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Ecommerce Fulfillment Business Development",
+      "url": "https://sg.linkedin.com/jobs/view/ecommerce-fulfillment-business-development-at-uparcel-4471089678"
+    },
+    "linkedin:4471300928": {
+      "company": "KJ FEM Pte Ltd",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Senior Business Development Executive",
+      "url": "https://sg.linkedin.com/jobs/view/senior-business-development-executive-at-kj-fem-pte-ltd-4471300928"
+    },
+    "linkedin:4471310439": {
+      "company": "Vantive",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Manager, PD & HD",
+      "url": "https://sg.linkedin.com/jobs/view/sales-manager-pd-hd-at-vantive-4471310439"
+    },
+    "linkedin:4471311775": {
+      "company": "LS ELECTRIC Singapore",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Manager",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-manager-at-ls-electric-singapore-4471311775"
+    },
+    "linkedin:4471315832": {
+      "company": "Hubble.Build",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Senior / Sales Executive (Hubble.Financial - Factoring and Receivables Financing",
+      "url": "https://sg.linkedin.com/jobs/view/senior-sales-executive-hubble-financial-factoring-and-receivables-financing-at-hubble-build-4471315832"
+    },
+    "linkedin:4471323358": {
+      "company": "China Mobile International Limited",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Carrier Business Development Manager",
+      "url": "https://sg.linkedin.com/jobs/view/carrier-business-development-manager-at-china-mobile-international-limited-4471323358"
+    },
+    "linkedin:4471329050": {
+      "company": "Cregis",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Associate (Web3)",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-associate-web3-at-cregis-4471329050"
+    },
     "linkedin:4471412905": {
       "company": "CLaaS2SaaS",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1223,6 +1511,14 @@
       "tier": "A",
       "title": "Sales Manager",
       "url": "https://sg.linkedin.com/jobs/view/sales-manager-at-income-insurance-limited-4471435956"
+    },
+    "linkedin:4471444073": {
+      "company": "Hyphen Partners",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Account Executive - Payments",
+      "url": "https://sg.linkedin.com/jobs/view/account-executive-payments-at-hyphen-partners-4471444073"
     },
     "linkedin:4471838398": {
       "company": "PSC Biotech\u00ae Corporation",
@@ -1280,6 +1576,14 @@
       "title": "Technical Business Development Manager",
       "url": "https://sg.linkedin.com/jobs/view/technical-business-development-manager-at-robert-walters-4472213297"
     },
+    "mycareersfuture:00a9867dd8a6b6f42ca6c84df11cd025": {
+      "company": "MAX OUT MARKETING",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "\ud83d\udcc8 Junior Business Development Executive | Build Your Future",
+      "url": "https://www.mycareersfuture.gov.sg/job/admin/%F0%9F%93%88-junior-business-development-executive-build-future-max-marketing-00a9867dd8a6b6f42ca6c84df11cd025"
+    },
     "mycareersfuture:00bc8254e0c4bbd0cfd2426b5b6380dd": {
       "company": "GROWTH TALENT RECRUIT",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -1328,6 +1632,14 @@
       "title": "BUSINESS DEVELOPMENT EXECUTIVE",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-ds-traders-03d524aec638bfe3c9da2a612ce6927f"
     },
+    "mycareersfuture:042dc9a6905d3f3fc7f698e85c60029b": {
+      "company": "GREENTECH INTERNATIONAL PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Indoor Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/indoor-sales-executive-greentech-international-042dc9a6905d3f3fc7f698e85c60029b"
+    },
     "mycareersfuture:042f4ebbe079f49657639536a6de2396": {
       "company": "GOOD JOB CREATIONS (SINGAPORE) PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -1352,6 +1664,14 @@
       "title": "Business Development Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/insurance/business-development-manager-enru-lim-organization-0656cbb6fc046e4e0385aaa5a4b47968"
     },
+    "mycareersfuture:06761dd9f9f8e3de7784675cc2d2b1ea": {
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (India Market) - Training Provided!",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-training-provided-intuit-recruitment-06761dd9f9f8e3de7784675cc2d2b1ea"
+    },
     "mycareersfuture:069213e89876c9fc012590005ec5a6f2": {
       "company": "DIRECT SEARCH ASIA PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1360,6 +1680,30 @@
       "title": "Business Development Manager (Energy)",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-manager-direct-search-asia-069213e89876c9fc012590005ec5a6f2"
     },
+    "mycareersfuture:0789d18066c78b39ec5eb84a2c4507c6": {
+      "company": "O. F. TECHNOLOGY PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Data Center & Cloud)",
+      "url": "https://www.mycareersfuture.gov.sg/job/general-management/sales-manager-o-f-technology-0789d18066c78b39ec5eb84a2c4507c6"
+    },
+    "mycareersfuture:07e13d22a4feb31ea5311e5ba1cb3489": {
+      "company": "CLARION EVENTS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sponsorship and Exhibition Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sponsorship-exhibition-sales-manager-clarion-events-07e13d22a4feb31ea5311e5ba1cb3489"
+    },
+    "mycareersfuture:08022020ab9ae39bff7852d1833f2979": {
+      "company": "SSG HOTELS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Hotel)",
+      "url": "https://www.mycareersfuture.gov.sg/job/hospitality/sales-manager-ssg-hotels-08022020ab9ae39bff7852d1833f2979"
+    },
     "mycareersfuture:080d7b8050a147579617f450fd1df525": {
       "company": "IDEALS RECRUITMENT PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1367,6 +1711,38 @@
       "tier": "A",
       "title": "Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/sales-executive-ideals-recruitment-080d7b8050a147579617f450fd1df525"
+    },
+    "mycareersfuture:08d186be703904802a8b6e927ce1fbbd": {
+      "company": "ALTIUS ORG",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive \ud83d\udd74\ud83c\udffb",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-executive-%F0%9F%95%B4%F0%9F%8F%BB-altius-org-08d186be703904802a8b6e927ce1fbbd"
+    },
+    "mycareersfuture:0a3e411f1c764c9a4c1626af79153752": {
+      "company": "WECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Freight Forwarding Sales Executive [EL]",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/freight-forwarding-sales-executive-el-wecruit-0a3e411f1c764c9a4c1626af79153752"
+    },
+    "mycareersfuture:0ab3190acdbfc41ea445eaa180994e9e": {
+      "company": "RECRUITPEDIA PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Regional Sales Manager (Contract Logistic / Freight Forwarding) - Center - VTTO",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/regional-sales-manager-center-vtto-recruitpedia-0ab3190acdbfc41ea445eaa180994e9e"
+    },
+    "mycareersfuture:0b1194418ffefce99422d67438681102": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/sales-executive-royal-org-0b1194418ffefce99422d67438681102"
     },
     "mycareersfuture:0b66cc0e046ad724f865da52b7cc46b5": {
       "company": "ANAS E&C PTE. LTD.",
@@ -1432,6 +1808,14 @@
       "title": "Business Development & Sales (No Experience Needed)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-sales-royal-org-12af323eaf793881599299917aadc97a"
     },
+    "mycareersfuture:1445b1bc28914fd6bd5e3f6cebd9e03a": {
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Audio Visual)",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/sales-manager-intuit-recruitment-1445b1bc28914fd6bd5e3f6cebd9e03a"
+    },
     "mycareersfuture:14c6432c27713079459575a6650541b8": {
       "company": "ANRADUS PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -1456,6 +1840,14 @@
       "title": "BUSINESS DEVELOPMENT MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-manager-hi-tech-images-1508442a356481db5c9d520fb43d5665"
     },
+    "mycareersfuture:1508f21f9f4ec03bc9b8ec8023e197b0": {
+      "company": "ENGINEERING EDGE (SINGAPORE) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Export Business Development",
+      "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/export-business-development-engineering-edge-1508f21f9f4ec03bc9b8ec8023e197b0"
+    },
     "mycareersfuture:160c1f5ff2846d403bb17cf07b5e3f9e": {
       "company": "OAKTREE CONSULTING",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1471,6 +1863,14 @@
       "tier": "A",
       "title": "Marketing & Business Development Associate (Entry-Level)",
       "url": "https://www.mycareersfuture.gov.sg/job/advertising/marketing-business-development-associate-simple-recruit-16d5f294529b2d798114f8d099e20187"
+    },
+    "mycareersfuture:177aa882da6653bcb08d252754b0251e": {
+      "company": "UMBRELLA SOLUTIONS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Manager \u2013 Technology Solutions",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-manager-%E2%80%93-technology-solutions-umbrella-solutions-177aa882da6653bcb08d252754b0251e"
     },
     "mycareersfuture:1836fc0412236a24609b2f213aac7ae1": {
       "company": "BABA MINIMART PTE. LTD.",
@@ -1488,6 +1888,14 @@
       "title": "Sales Manager (Renovation)",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-empire-works-1943da1d14f083c22d118338b6e19b38"
     },
+    "mycareersfuture:19faeefb7f2e587ad0f72956ce713411": {
+      "company": "TRUST RECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive (Architecture/Sports/Interior Design) (YS81)",
+      "url": "https://www.mycareersfuture.gov.sg/job/architecture/business-development-executive-trust-recruit-19faeefb7f2e587ad0f72956ce713411"
+    },
     "mycareersfuture:1b0b1705e4d9984a6298a4ff3811d059": {
       "company": "MAX OUT MARKETING",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -1503,6 +1911,14 @@
       "tier": "A",
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/business-development-executive-crownn-company-1badf6be212438e5df8c2acec7805505"
+    },
+    "mycareersfuture:1c381f0bb0dd3b661348ff89950935d7": {
+      "company": "ALL OUT PEST MANAGEMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive/Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/environment/business-development-executivemanager-pest-management-1c381f0bb0dd3b661348ff89950935d7"
     },
     "mycareersfuture:1c4da5203cda5458d6274776a94d8ddf": {
       "company": "VALOR ORGANISATION PTE. LTD.",
@@ -1520,6 +1936,14 @@
       "title": "Sales Manager (Flat Steel / Trading / Japan MNC / Regional) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/sales-manager-al70-trust-recruit-1c8b5c1edb19da3db45086f641b3b723"
     },
+    "mycareersfuture:1e5fc31453a3c518bfd3f97bc8dc315e": {
+      "company": "EA RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Indoor Sales Executive (5 days / Logistics / Freight Forwarding)",
+      "url": "https://www.mycareersfuture.gov.sg/job/admin/indoor-sales-executive-ea-recruitment-1e5fc31453a3c518bfd3f97bc8dc315e"
+    },
     "mycareersfuture:1e8acbe9803040bfce51d3cf234f61cf": {
       "company": "GOOD JOB CREATIONS (SINGAPORE) PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1536,6 +1960,14 @@
       "title": "*(ENTRY LEVEL) Business Development & Marketing Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-marketing-executive-ascend-marketing-solutions-1ef11aabd3dadf203e35a0df6db5a40f"
     },
+    "mycareersfuture:1ef3651a3b4f61769dbd7524fa8a95b7": {
+      "company": "L.T.M. CORPORATION PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/sales-executive-ltm-corporation-1ef3651a3b4f61769dbd7524fa8a95b7"
+    },
     "mycareersfuture:1f68869902e06f6ae44c2943f681c615": {
       "company": "WILHELMSEN SHIP MANAGEMENT SINGAPORE PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1551,6 +1983,22 @@
       "tier": "A",
       "title": "Sales Executive (\u88c5\u4fee\u4e0e\u9694\u70ed\u819c\u9500\u552e\u987e\u95ee)",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-ttt-tech-22320e634082b03aff8a6c4686dadc23"
+    },
+    "mycareersfuture:22bee1ec9aa7a6f41bc6798013371a7d": {
+      "company": "MKV ENGINEERING AND TRADING SERVICES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Senior Business Development Executive/ BD Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/senior-business-development-executive-bd-executive-mkv-engineering-trading-services-22bee1ec9aa7a6f41bc6798013371a7d"
+    },
+    "mycareersfuture:22f854a067ba49c62c294035b123f8c1": {
+      "company": "CAREER PRODUCTIONS",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "\ud83d\udca5 Client Relationship Sales Executive \ud83d\udca5 $3000 Salary + Comms ($8000-$10000 Monthly) \ud83d\udca5 100% Customers Provided \ud83d\udca5",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/%F0%9F%92%A5-client-relationship-sales-executive-%F0%9F%92%A5-3000-salary-comms-%F0%9F%92%A5-100-customers-provided-%F0%9F%92%A5-career-productions-22f854a067ba49c62c294035b123f8c1"
     },
     "mycareersfuture:235c6bbc788f174084eb20ac01c322b6": {
       "company": "SNIP AVENUE HOLDINGS PTE. LTD.",
@@ -1607,6 +2055,14 @@
       "tier": "A",
       "title": "Business Development Executive | Up to $4K + PB | Supermarket & Online Sales - 0310",
       "url": "https://www.mycareersfuture.gov.sg/job/others/business-development-executive-4k-pb-supermarket-online-sales-0310-supreme-hr-advisory-25fee84f28d5a80eddf592645d87b633"
+    },
+    "mycareersfuture:2671757726eb4bfa88993ad569cb3f7c": {
+      "company": "ASCEND MARKETING SOLUTIONS",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development & Marketing Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-marketing-associate-ascend-marketing-solutions-2671757726eb4bfa88993ad569cb3f7c"
     },
     "mycareersfuture:26c793628d361b4b27e80a76b55d8dbe": {
       "company": "XCELLINK PTE. LTD.",
@@ -1672,6 +2128,14 @@
       "title": "Business Development Executive (Appliances) / North",
       "url": "https://www.mycareersfuture.gov.sg/job/real-estate/business-development-executive-north-recruitpedia-2ba644fa45b521340f6556b8dcb1d280"
     },
+    "mycareersfuture:2c0502cd94084c7cc177bf0e0802be7e": {
+      "company": "CHINA CIVIL ENGINEERING CONSTRUCTION CORPORATION (NANYANG) PTE. LIMITED",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-executive-china-civil-engineering-construction-corporation-2c0502cd94084c7cc177bf0e0802be7e"
+    },
     "mycareersfuture:2c153fbd5c6a8a2198528e0a65aadb5b": {
       "company": "ROYAL ORG PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -1703,6 +2167,14 @@
       "tier": "A",
       "title": "Shop Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/shop-sales-manager-kunjameng-trading-2d061a07f151e2ee14bcb6c1a0e875e7"
+    },
+    "mycareersfuture:2d23aa7c2da2782b967589a5cfeea4ad": {
+      "company": "RECRUIT EXPERT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager (Commercial Fit-Out/Renovation)",
+      "url": "https://www.mycareersfuture.gov.sg/job/architecture/business-development-manager-recruit-expert-2d23aa7c2da2782b967589a5cfeea4ad"
     },
     "mycareersfuture:2e81b154ce9367a3408e8699f5f003eb": {
       "company": "VALOR ORGANISATION PTE. LTD.",
@@ -1752,6 +2224,14 @@
       "title": "Business Development Manager #72185",
       "url": "https://www.mycareersfuture.gov.sg/job/engineering/business-development-manager-72185-anradus-338440c4032bf9233fc66080702fd6ba"
     },
+    "mycareersfuture:340c52ff0d98492aad98e2bd20e15a19": {
+      "company": "RN CARE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Security and Technology)",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/sales-manager-rn-care-340c52ff0d98492aad98e2bd20e15a19"
+    },
     "mycareersfuture:345bc9307ea163b4e71b69e863bbef73": {
       "company": "GREENTECH INTERNATIONAL PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1767,6 +2247,14 @@
       "tier": "A",
       "title": "Business Development Lead",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-lead-manpower-staffing-services-347afc887520a27c80ba0eee0d4e01fd"
+    },
+    "mycareersfuture:34f73b9c278801b75bbc8758899dc50b": {
+      "company": "YY CIRCLE (SG) PRIVATE LIMITED",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager (Sales & Operations)",
+      "url": "https://www.mycareersfuture.gov.sg/job/architecture/business-development-manager-yy-circle-34f73b9c278801b75bbc8758899dc50b"
     },
     "mycareersfuture:350e189cf2544be45bc8940f21b7f6e1": {
       "company": "HUBSPOT ASIA PTE. LTD.",
@@ -1815,6 +2303,30 @@
       "tier": "A",
       "title": "\u2728Business Development Executive (Traveling opportunities | training provided)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/%E2%9C%A8business-development-executive-auratalentsg-375c4b8c13279aab4181239d988b368c"
+    },
+    "mycareersfuture:37816983b76f0e877afdf16779695118": {
+      "company": "MURR ASIA-PACIFIC PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Inside Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/inside-sales-executive-murr-asia-pacific-37816983b76f0e877afdf16779695118"
+    },
+    "mycareersfuture:37d905c1364f434f128c85a1b93d3224": {
+      "company": "CAREER PRODUCTIONS",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "\ud83c\udf08 Consulting Sales Executive \ud83c\udf08 $3000 Salary + Comms ($8000-$10000 Monthly) \ud83c\udf08 100% Customers Provided \ud83c\udf08",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/%F0%9F%8C%88-consulting-sales-executive-%F0%9F%8C%88-3000-salary-comms-%F0%9F%8C%88-100-customers-provided-%F0%9F%8C%88-career-productions-37d905c1364f434f128c85a1b93d3224"
+    },
+    "mycareersfuture:37dbf5df883c590de5b61be54108ccec": {
+      "company": "MOUNT T GROUP PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive / Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-executive-manager-mount-t-group-37dbf5df883c590de5b61be54108ccec"
     },
     "mycareersfuture:38975ec5c78f95e07b98c3374767b883": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
@@ -1872,6 +2384,14 @@
       "title": "#URGENT \ud83d\udcc8 Business Development & Marketing Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/urgent-%F0%9F%93%88-business-development-marketing-executive-max-marketing-3ced71a4559a0f22cbc46265af80f021"
     },
+    "mycareersfuture:3d3e1def63802d85f7c75746e353e4e4": {
+      "company": "TALENT SPOT GROUP PRIVATE LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Freight Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/freight-sales-manager-talent-spot-group-3d3e1def63802d85f7c75746e353e4e4"
+    },
     "mycareersfuture:3ed91d9335798925efbe86feebd5a45a": {
       "company": "LUMINA ADVISORY & GLOBAL SEARCH PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -1888,6 +2408,14 @@
       "title": "Business Development & Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-sales-executive-sg-gymnastic-academy-3f7dbcd9d7f917aa20fd8cb6f8caf47d"
     },
+    "mycareersfuture:3f7e424565b76e1883efb197262ed57a": {
+      "company": "WONDER RICE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Catering Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/catering-sales-executive-wonder-rice-3f7e424565b76e1883efb197262ed57a"
+    },
     "mycareersfuture:4163b6edabc63b3f16fdac4e687b94ba": {
       "company": "ADECCO PERSONNEL PTE LTD",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -1903,6 +2431,14 @@
       "tier": "A",
       "title": "\ud83d\udd25Business Development Executive (Entry-level)\ud83d\udd25",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/%F0%9F%94%A5business-development-executive-%F0%9F%94%A5-auratalentsg-418afe6ce73ec017a2f92942169c331b"
+    },
+    "mycareersfuture:42e87349950ab9895b6fa5f0c4848ef9": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development & Sales (No Experience Needed)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-sales-royal-org-42e87349950ab9895b6fa5f0c4848ef9"
     },
     "mycareersfuture:4360608f5918181b2f4e16beb894e731": {
       "company": "AURATALENTSG",
@@ -1951,6 +2487,14 @@
       "tier": "A",
       "title": "Junior Business Development Executive (Class 3 License, Training Provided) - YZ11",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/junior-business-development-executive-yz11-supreme-hr-advisory-48070458ad032dc866fc6b9f12bc6409"
+    },
+    "mycareersfuture:480a3d25acba9b8b14fbc8579535bf3a": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Travel Opportunities!)",
+      "url": "https://www.mycareersfuture.gov.sg/job/marketing/sales-executive-royal-org-480a3d25acba9b8b14fbc8579535bf3a"
     },
     "mycareersfuture:490cbf65125bda76e199492290ab8912": {
       "company": "MARTINO AGENCY",
@@ -2016,6 +2560,14 @@
       "title": "Commercial Sales Executive | Weekly Payout | Career Progression",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/commercial-sales-executive-weekly-payout-career-progression-strive-marketing-group-4bab1ff174aa4a39c2f6e2ec6dbd7f8d"
     },
+    "mycareersfuture:4bc6c5ed1763890f03e3077c481a34f7": {
+      "company": "CYGNIFY PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Senior Enterprise Account Executive - Public Sector",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-enterprise-account-executive-public-sector-cygnify-4bc6c5ed1763890f03e3077c481a34f7"
+    },
     "mycareersfuture:4c1673abb1da41d7c312485b84a2cb71": {
       "company": "SIMPLE RECRUIT",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2048,6 +2600,14 @@
       "title": "Business Development Executive (Freight Forwarding Sales) - LCYL",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-executive-lcyl-supreme-hr-advisory-4e217c8a99343d794af87e128f77a30e"
     },
+    "mycareersfuture:4ee0302d2e3dd28f7387d4f0cfc6779f": {
+      "company": "DHL EXPRESS (SINGAPORE) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Tender & Business Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/general-management/tender-business-development-executive-dhl-express-4ee0302d2e3dd28f7387d4f0cfc6779f"
+    },
     "mycareersfuture:4eee2e122fc24faa7f25698dc9bed0f6": {
       "company": "ANRADUS PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -2072,6 +2632,14 @@
       "title": "Business Development Manager (Airfreight & Last-Mile Logistics) #10195",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-manager-10195-anradus-4f6cd8a4b2184e62df1ba0231086e5de"
     },
+    "mycareersfuture:5047dbf4e22d0b3496094499da9efdea": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-executive-royal-org-5047dbf4e22d0b3496094499da9efdea"
+    },
     "mycareersfuture:5091180bb3a1d563ff53b4b21a0e656d": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2079,6 +2647,14 @@
       "tier": "A",
       "title": "Sales Manager (Outdoor) - LCYL",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-lcyl-supreme-hr-advisory-5091180bb3a1d563ff53b4b21a0e656d"
+    },
+    "mycareersfuture:5290461379745662234994b9525584dc": {
+      "company": "AIM RECRUIT CONSULTANCY PTE. LIMITED",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager - Machines Cleaning Svc /Semicon @Woodlands",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/sales-manager-machines-cleaning-svc-semicon-woodlands-aim-recruit-consultancy-5290461379745662234994b9525584dc"
     },
     "mycareersfuture:532d38860ce278bd9a44bf0bbd975537": {
       "company": "SIMPLE RECRUIT",
@@ -2136,6 +2712,14 @@
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-executive-royal-org-56790e65f41754cc1de0c1c072196347"
     },
+    "mycareersfuture:56cf59134fc5fe91cd59a0d193f1d6bd": {
+      "company": "RN CARE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Aerospace)",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/sales-manager-rn-care-56cf59134fc5fe91cd59a0d193f1d6bd"
+    },
     "mycareersfuture:57e10670cd26bd30ef062f713098a376": {
       "company": "DR. COOL PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -2160,6 +2744,14 @@
       "title": "Account Executive, Privy",
       "url": "https://www.mycareersfuture.gov.sg/job/information-technology/account-executive-privy-stripe-payments-singapore-59d1dcdd5a4ad728b2d68c55f16fd344"
     },
+    "mycareersfuture:5a1b58100ee360a1a6a0d75b43d523f8": {
+      "company": "RECRUIT EXPERT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Tuas, Coatings/Building Materials, Class 3)",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/sales-executive-recruit-expert-5a1b58100ee360a1a6a0d75b43d523f8"
+    },
     "mycareersfuture:5a622707925b4b3e0f792a2d5742a208": {
       "company": "LAURENE LIVING",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2175,6 +2767,14 @@
       "tier": "A",
       "title": "Sales Manager (MNC Manufacturing)",
       "url": "https://www.mycareersfuture.gov.sg/job/engineering/sales-manager-rrecruiter-int-5b9687d102d13c254cbbccdb1146031f"
+    },
+    "mycareersfuture:5c6cef6626e38ebf28b043a727343c9b": {
+      "company": "MAPLEBEAR WHIZ KIDS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/consulting/business-development-manager-maplebear-whiz-kids-5c6cef6626e38ebf28b043a727343c9b"
     },
     "mycareersfuture:5d1c551d9ae0864521c629d5f8edd939": {
       "company": "MAX OUT MARKETING",
@@ -2223,6 +2823,22 @@
       "tier": "A",
       "title": "Business Development Manager #10227",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-manager-10227-anradus-619b3629fa473ccd904049a472415bce"
+    },
+    "mycareersfuture:65303b923569862d1084b8f69d6c2e49": {
+      "company": "WECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive (Apparel) [EL]",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-el-wecruit-65303b923569862d1084b8f69d6c2e49"
+    },
+    "mycareersfuture:663dd181eaf2b598305e4b17b4d758e6": {
+      "company": "GROWTH TALENT RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales & Business Development Executive | Immediate Hiring",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/sales-business-development-executive-immediate-hiring-growth-talent-recruit-663dd181eaf2b598305e4b17b4d758e6"
     },
     "mycareersfuture:6840a94899e5b374adbc18f270fe81d4": {
       "company": "TRUST RECRUIT PTE. LTD.",
@@ -2280,6 +2896,14 @@
       "title": "Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-tideline-resources-6c80bea1a8fc06d9e9e45dbc88ebdae8"
     },
+    "mycareersfuture:6d21112f4b098dea73ee9cc0c481f031": {
+      "company": "ENVI ENGINEERS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "BUSINESS DEVELOPMENT EXECUTIVE",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-executive-envi-engineers-6d21112f4b098dea73ee9cc0c481f031"
+    },
     "mycareersfuture:6d843f51f24337939a7509f52ee1f24b": {
       "company": "ALTIUS ORG",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2312,6 +2936,14 @@
       "title": "BUSINESS DEVELOPMENT MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-manager-mah-construction-71209412a0f7faf3d804654fbf8fa8b9"
     },
+    "mycareersfuture:7191acd04d448dc90bb96df73a845b42": {
+      "company": "KITA SOLUTIONS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Outdoor Sales Executive (Freight)",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/outdoor-sales-executive-kita-solutions-7191acd04d448dc90bb96df73a845b42"
+    },
     "mycareersfuture:71f32b7838441edf64a558809b9459ad": {
       "company": "TRUST RECRUIT PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2319,6 +2951,14 @@
       "tier": "A",
       "title": "Business Development Manager (OCTG / Steel / Japan MNC / Regional) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/business-development-manager-al70-trust-recruit-71f32b7838441edf64a558809b9459ad"
+    },
+    "mycareersfuture:73cba8a72675de9d61cc6381fa271a17": {
+      "company": "ALTIUS ORG",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "BUSINESS DEVELOPMENT",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-altius-org-73cba8a72675de9d61cc6381fa271a17"
     },
     "mycareersfuture:74d9a681630ac0ce8ef82c759f2968df": {
       "company": "ANRADUS PTE. LTD.",
@@ -2424,6 +3064,14 @@
       "title": "(FULL/PART TIME) Business Development Executive (Training Provided)",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/business-development-executive-max-marketing-7bae6dcec7effdfb065beef3833c6ef4"
     },
+    "mycareersfuture:7c44f12447f555a17224110eef0321c5": {
+      "company": "RECRUIT NOW SINGAPORE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Account Executive \u2013 AP/AR & Full Set Preferred (Logistics/Cargo Provider) | S$3,200 basic + VB | International Business Park",
+      "url": "https://www.mycareersfuture.gov.sg/job/accounting/account-executive-%E2%80%93-apar-full-set-preferred-s3200-basic-vb-international-business-park-recruit-now-singapore-7c44f12447f555a17224110eef0321c5"
+    },
     "mycareersfuture:7d720b513d5cec254e12bcd2209b474c": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2431,6 +3079,38 @@
       "tier": "A",
       "title": "Business Development Executive - Tai Seng - Security System - 3972",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-tai-seng-security-system-3972-supreme-hr-advisory-7d720b513d5cec254e12bcd2209b474c"
+    },
+    "mycareersfuture:7df0601fabc53cc77b704bbda2a7e473": {
+      "company": "SSG HOTELS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Hotel Events Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/hospitality/hotel-events-sales-executive-ssg-hotels-7df0601fabc53cc77b704bbda2a7e473"
+    },
+    "mycareersfuture:7e1c73f0c561270f0a298bebb3318dc4": {
+      "company": "EA RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (ICT / IT / Security Solution / Cloud Solutions)",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/sales-executive-ea-recruitment-7e1c73f0c561270f0a298bebb3318dc4"
+    },
+    "mycareersfuture:7efe2cc0f48d95e436fc2287315bd272": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Associate (Career Opportunities)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-associate-simple-recruit-7efe2cc0f48d95e436fc2287315bd272"
+    },
+    "mycareersfuture:800d6742f79be1fd7e4a5a07562c922c": {
+      "company": "JMC CAPITAL ASSET MANAGEMENT SINGAPORE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager / Relationship Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/sales-manager-relationship-manager-jmc-capital-asset-management-singapore-800d6742f79be1fd7e4a5a07562c922c"
     },
     "mycareersfuture:8014e8ebaa07244984c097aff5c94a45": {
       "company": "BEGA FASHION PTE LTD",
@@ -2472,6 +3152,14 @@
       "title": "Sales Manager (Beauty & Aesthetic) #10059",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-10059-anradus-828db6d76183b255082558509440eade"
     },
+    "mycareersfuture:82be38892b4433c6d8ce18267c77571f": {
+      "company": "K'S TALENT RECRUITMENT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business development Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-manager-nice-salon-82be38892b4433c6d8ce18267c77571f"
+    },
     "mycareersfuture:847eac3d250cd5b00f97a7634c252b21": {
       "company": "CAREER PRODUCTIONS",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -2479,6 +3167,14 @@
       "tier": "A",
       "title": "\ud83d\udfe0 Relationship Sales Executive \ud83d\udfe0 $3000 Salary + Comms ($8000-$10000 Monthly) \ud83d\udfe0 100% Customers Provided \ud83d\udfe0",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/%F0%9F%9F%A0-relationship-sales-executive-%F0%9F%9F%A0-3000-salary-comms-%F0%9F%9F%A0-100-customers-provided-%F0%9F%9F%A0-career-productions-847eac3d250cd5b00f97a7634c252b21"
+    },
+    "mycareersfuture:8663b8c6218773f201fadb29bebc1f8a": {
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Executive (Food Manufacturer)",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-executive-intuit-recruitment-8663b8c6218773f201fadb29bebc1f8a"
     },
     "mycareersfuture:870eb9c80cbcd9896208c863839a4369": {
       "company": "MEDIAPLUS DIGITAL PTE. LTD.",
@@ -2495,6 +3191,14 @@
       "tier": "A",
       "title": "Business Development Manager (OCTG / Steel / Japan MNC / Regional) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/business-development-manager-al70-trust-recruit-88a4bbc8ddfc7971e8734e1ff688a700"
+    },
+    "mycareersfuture:8974a4688be2d305c5daea7a6cb26c80": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "\ud83d\udcbc\ud83d\udcca Sales & Marketing (Business Development)",
+      "url": "https://www.mycareersfuture.gov.sg/job/marketing/%F0%9F%92%BC%F0%9F%93%8A-sales-marketing-simple-recruit-8974a4688be2d305c5daea7a6cb26c80"
     },
     "mycareersfuture:8b25141409b0522a8919a1d9eabccf36": {
       "company": "SING HAI MARINE ENGINEERING PTE. LTD.",
@@ -2568,6 +3272,22 @@
       "title": "Sales Executive (Entry Level) High Commission - VTAL",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-high-commission-vtal-recruitpedia-8f1300e2d9d835fdab44dffdc7e5ee81"
     },
+    "mycareersfuture:8f8b9e2bc93c00062eac23172e09c03c": {
+      "company": "ORIENT QUALITY PRINT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "SALES EXECUTIVE",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-executive-orient-quality-print-8f8b9e2bc93c00062eac23172e09c03c"
+    },
+    "mycareersfuture:90eda8f377241e68518da15f98b6bc19": {
+      "company": "QUANTFOOD PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Event & Catering Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/event-catering-sales-manager-quantfood-90eda8f377241e68518da15f98b6bc19"
+    },
     "mycareersfuture:910b7bc5dc2b56f62e5adc260a2d5fab": {
       "company": "ACHIEVE CAREER CONSULTANT PTE LTD",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2575,6 +3295,22 @@
       "tier": "A",
       "title": "Account Executive (MNC)",
       "url": "https://www.mycareersfuture.gov.sg/job/accounting/account-executive-achieve-career-consultant-910b7bc5dc2b56f62e5adc260a2d5fab"
+    },
+    "mycareersfuture:91ddb3854e297b263c1c4c161dc91452": {
+      "company": "EPICO WINE AND SPIRITS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-manager-epico-wine-spirits-91ddb3854e297b263c1c4c161dc91452"
+    },
+    "mycareersfuture:92103279445268d80f2dc7fa4f085a21": {
+      "company": "EA RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Security Systems / B2B)",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/sales-executive-ea-recruitment-92103279445268d80f2dc7fa4f085a21"
     },
     "mycareersfuture:9219586673986a763708e9c64c1baaa4": {
       "company": "ASIA GLOBAL CONSTRUCTION PTE. LTD.",
@@ -2599,6 +3335,14 @@
       "tier": "A",
       "title": "\u203c\ufe0fJunior Business Development Executive (Travel Opportunities + Training Provided)",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/%E2%80%BC%EF%B8%8Fjunior-business-development-executive-max-marketing-938e723e7351472cef2f6370f0c69484"
+    },
+    "mycareersfuture:93c6a0f3b95c4115b38a19c397a9f3a4": {
+      "company": "MSC CONSULTING (S) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (ERP Software Sales)",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/sales-manager-msc-consulting-93c6a0f3b95c4115b38a19c397a9f3a4"
     },
     "mycareersfuture:93d4968dee9c6bb1cff0be1fc75a6b6c": {
       "company": "WAVEWORKS",
@@ -2647,6 +3391,14 @@
       "tier": "A",
       "title": "Client Account Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/consulting/client-account-executive-salesworks-97bfdb2e77114caa05d51783652da64b"
+    },
+    "mycareersfuture:98a31cc676ca0439481405d924c69ae5": {
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales / Key Account Executive (FMCG/ Food Manufacturing)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-key-account-executive-intuit-recruitment-98a31cc676ca0439481405d924c69ae5"
     },
     "mycareersfuture:9956d1b0b79502a68d6ad784b382ed6c": {
       "company": "TALENT TRADER GROUP PTE. LTD.",
@@ -2712,6 +3464,14 @@
       "title": "BUSINESS DEVELOPMENT EXECUTIVE | TRAINING PROVIDED + ENTRY LEVEL",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/business-development-executive-training-provided-entry-level-max-marketing-9dc6de30184c3186d33bf6b2a5effed0"
     },
+    "mycareersfuture:9e084a65afdf551a1bdd0640c63bc3d1": {
+      "company": "RECRUIT EXPRESS PTE LTD",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager, Pharmaceutical Skincare & Oral Health #HMZ",
+      "url": "https://www.mycareersfuture.gov.sg/job/healthcare/sales-manager-pharmaceutical-skincare-oral-health-hmz-recruit-express-9e084a65afdf551a1bdd0640c63bc3d1"
+    },
     "mycareersfuture:9f6da293ec1240513b56d32a984c03ce": {
       "company": "CANWORKONE.SG EMPLOYMENT PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2768,6 +3528,22 @@
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-dynasafe-technologies-a442ad7a2399ac0597d0642608c23d00"
     },
+    "mycareersfuture:a5e35e78036b7b76366da25ffff8b033": {
+      "company": "CHIEF RECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Outdoor Sales Executive (Up to $3.2k fixed monthly gross+Comm/ North/Possess a car)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/outdoor-sales-executive-chief-recruit-a5e35e78036b7b76366da25ffff8b033"
+    },
+    "mycareersfuture:a6adfc03e7871747222c7a69fdae4a15": {
+      "company": "TYSON JAY MANAGEMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager ($4,000 base + $800 transport + Incentives )",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-tyson-jay-management-a6adfc03e7871747222c7a69fdae4a15"
+    },
     "mycareersfuture:a6ba43183024a6c875b819fefd41c710": {
       "company": "RECRUITPEDIA PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2775,6 +3551,22 @@
       "tier": "A",
       "title": "Regional Sales Manager (Contract Logistic / Freight Forwarding) - Center - VTTO",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/regional-sales-manager-center-vtto-recruitpedia-a6ba43183024a6c875b819fefd41c710"
+    },
+    "mycareersfuture:a72a998fec9969f644cef3892faf46bf": {
+      "company": "STEEL ALLY RESOURCES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-executive-ts-classic-a72a998fec9969f644cef3892faf46bf"
+    },
+    "mycareersfuture:a7594455903736688310e74f6eb23ccc": {
+      "company": "MARKETOVA MARKETING SOLUTION",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive (Career Progression)",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/business-development-executive-marketova-marketing-solution-a7594455903736688310e74f6eb23ccc"
     },
     "mycareersfuture:a7a6eaf2ca45a1242f56fccca4f9f50e": {
       "company": "SIMPLE RECRUIT",
@@ -2784,6 +3576,14 @@
       "title": "\ud83d\udcbc\ud83d\udcca Sales & Marketing (Business Development)",
       "url": "https://www.mycareersfuture.gov.sg/job/marketing/%F0%9F%92%BC%F0%9F%93%8A-sales-marketing-simple-recruit-a7a6eaf2ca45a1242f56fccca4f9f50e"
     },
+    "mycareersfuture:a98caf26150bfd922e382e4909177c3d": {
+      "company": "BEATHCHAPMAN (PTE. LTD.)",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Manager (VP), HNW insurance and wealth solutions",
+      "url": "https://www.mycareersfuture.gov.sg/job/insurance/business-development-manager-hnw-insurance-wealth-solutions-beathchapman-a98caf26150bfd922e382e4909177c3d"
+    },
     "mycareersfuture:a9b5053d7e3d5f39e043cbff78876cf3": {
       "company": "TRUST RECRUIT PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2791,6 +3591,14 @@
       "tier": "A",
       "title": "Senior Sales Executive (Imaging / Regional / Camera / Electronics/ FMCG) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/senior-sales-executive-al70-trust-recruit-a9b5053d7e3d5f39e043cbff78876cf3"
+    },
+    "mycareersfuture:a9c4690df6c12790d1e6c14408e66ca1": {
+      "company": "INTUIT RECRUITMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Technical Sales Manager (Power Electronics)",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/technical-sales-manager-intuit-recruitment-a9c4690df6c12790d1e6c14408e66ca1"
     },
     "mycareersfuture:ab771a4b98ad948a656811b622248444": {
       "company": "EVANTAGE HR PTE. LTD.",
@@ -2824,6 +3632,22 @@
       "title": "Sales Manager ($4,000 base + $800 transport + Incentives )",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-tyson-jay-management-ad694ca03f1697060af747a1640997e1"
     },
+    "mycareersfuture:ad815429f240eb264862f1dbfb54b247": {
+      "company": "ELITEZ (FMCG) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "SENIOR BUSINESS DEVELOPMENT EXECUTIVE",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/senior-business-development-executive-elitez-ad815429f240eb264862f1dbfb54b247"
+    },
+    "mycareersfuture:ad9fd83c552309896bab873cb5307f13": {
+      "company": "SECUREX GS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Service Sales)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-securex-gs-ad9fd83c552309896bab873cb5307f13"
+    },
     "mycareersfuture:ae5529f647ba3bc80e847e5e8839a165": {
       "company": "DIVERSIFIED FREIGHT SYSTEM (SINGAPORE) PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -2839,6 +3663,14 @@
       "tier": "A",
       "title": "Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/sales-manager-xia-food-manufacturing-ae8541df303346e62e084348f5024d87"
+    },
+    "mycareersfuture:af1e84244e1bf556031c5ccd229ae62b": {
+      "company": "GROWTH TALENT RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Customer Engagement & Sales Executive (Mentorship)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/customer-engagement-sales-executive-growth-talent-recruit-af1e84244e1bf556031c5ccd229ae62b"
     },
     "mycareersfuture:af479c33d1f42cee48217cf9f20d6889": {
       "company": "RECRUIT EXPERT PTE. LTD.",
@@ -2920,6 +3752,30 @@
       "title": "Business Development Executive (Training Provided)",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/business-development-executive-max-marketing-b3c17928653cdf34ed94e18acc0ba9a7"
     },
+    "mycareersfuture:b3cae7f328630f242467ea94428e3924": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-associate-royal-org-b3cae7f328630f242467ea94428e3924"
+    },
+    "mycareersfuture:b3edc3d987568909012b114a21274675": {
+      "company": "RECRUITPEDIA PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (Explosion Solutions) - Safety Equipments - VTTO",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-safety-equipments-vtto-recruitpedia-b3edc3d987568909012b114a21274675"
+    },
+    "mycareersfuture:b4a35c53204699d063804b1b0328dd50": {
+      "company": "TALENT TITANS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Marine)",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/sales-executive-talent-titans-b4a35c53204699d063804b1b0328dd50"
+    },
     "mycareersfuture:b5b2447ba50f46419cce8133a43f609e": {
       "company": "RECRUITPEDIA PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -2935,6 +3791,14 @@
       "tier": "A",
       "title": "SALES MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/manufacturing/sales-manager-dong-fang-kitchen-b5cd8c80c6de95cfb2d6aac97eda3a9d"
+    },
+    "mycareersfuture:b60033119e8f069c0c681c4789e3f632": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "\u2728Business Development Executive (Traveling opportunities | training provided)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/%E2%9C%A8business-development-executive-auratalentsg-b60033119e8f069c0c681c4789e3f632"
     },
     "mycareersfuture:b6f4f0c4d4bfb6484f70bab5328eb9b8": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
@@ -2952,6 +3816,30 @@
       "title": "B2B Sales executive",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/b2b-sales-executive-strive-marketing-group-b7f03b688850b36af586899e8461e551"
     },
+    "mycareersfuture:b881a409f01abdc40712ed4c83a7dad6": {
+      "company": "AXISOFT (SINGAPORE) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/marketing/sales-manager-axisoft-b881a409f01abdc40712ed4c83a7dad6"
+    },
+    "mycareersfuture:b907b34f2fda144a7b964eccfb65bef5": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Marketing & Business Development Associate (Entry-Level)",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/marketing-business-development-associate-simple-recruit-b907b34f2fda144a7b964eccfb65bef5"
+    },
+    "mycareersfuture:b90dd91f7ec0c6938792923cc37ce1ef": {
+      "company": "LIINEAGE GROUP",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "\ud83d\udcbc Junior Sales Executive (office hours, training provided) \ud83d\udcbc",
+      "url": "https://www.mycareersfuture.gov.sg/job/accounting/%F0%9F%92%BC-junior-sales-executive-%F0%9F%92%BC-liineage-group-b90dd91f7ec0c6938792923cc37ce1ef"
+    },
     "mycareersfuture:ba4b1e54734547d034425697c7afa5de": {
       "company": "CAREER PRODUCTIONS",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2959,6 +3847,14 @@
       "tier": "A",
       "title": "\ud83d\udd34 Sales Executive Personnel \ud83d\udd34 $3000 Salary + Comms ($8000-$10000 Monthly) \ud83d\udd34 100% Customers Provided \ud83d\udd34",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/%F0%9F%94%B4-sales-executive-personnel-%F0%9F%94%B4-3000-salary-comms-%F0%9F%94%B4-100-customers-provided-%F0%9F%94%B4-career-productions-ba4b1e54734547d034425697c7afa5de"
+    },
+    "mycareersfuture:babb68de8bc7dc96a7f71481a774742c": {
+      "company": "ALTIUS ORG",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "SALES & MARKETING [BUSINESS DEVELOPMENT \ud83d\udcc8]",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-marketing-business-development-%F0%9F%93%88-altius-org-babb68de8bc7dc96a7f71481a774742c"
     },
     "mycareersfuture:babce24ed6f359b188088e2f8065b561": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
@@ -2968,6 +3864,14 @@
       "title": "Junior B2B Sales Executive with Class 3 License (Training Provided) - YZ11",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/junior-b2b-sales-executive-class-3-license-yz11-supreme-hr-advisory-babce24ed6f359b188088e2f8065b561"
     },
+    "mycareersfuture:bb09c782a7406292c97660eb9ca63c62": {
+      "company": "RECRUIT NOW SINGAPORE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager (FMCG/Modern Trade) | S$4,500 basic + bonus",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-s4500-basic-bonus-recruit-now-singapore-bb09c782a7406292c97660eb9ca63c62"
+    },
     "mycareersfuture:bb58eb28f9afe38ea91043741791b9da": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -2975,6 +3879,14 @@
       "tier": "A",
       "title": "6723 - Corporate Sales Executive | Up to $4.2K | Bishan | B2B Sales & Training Provided",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/6723-corporate-sales-executive-42k-bishan-b2b-sales-training-provided-supreme-hr-advisory-bb58eb28f9afe38ea91043741791b9da"
+    },
+    "mycareersfuture:bba756fa31602aca01052d32d821af18": {
+      "company": "CHINA CIVIL ENGINEERING CONSTRUCTION CORPORATION Branch Office Singapore",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-executive-china-civil-engineering-construction-corporation-branch-office-singapore-bba756fa31602aca01052d32d821af18"
     },
     "mycareersfuture:bc17176853b638e1e8b39c32b3f5f954": {
       "company": "RRECRUITER PTE. LTD.",
@@ -2991,6 +3903,14 @@
       "tier": "A",
       "title": "MNCs Business Development manager / Logistic Sales Manager (freight forwarding /  logistics / Shipping/ Transportation )",
       "url": "https://www.mycareersfuture.gov.sg/job/accounting/mncs-business-development-manager-logistic-sales-manager-recruitflash-bc84b1f102e8c4bcfccf229995e3fe09"
+    },
+    "mycareersfuture:bc9580de5e7663ac49c6015df37f4ba0": {
+      "company": "RECRUIT EXPRESS PTE LTD",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager, Medical Aesthetics Devices #HMZ",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-manager-medical-aesthetics-devices-hmz-recruit-express-bc9580de5e7663ac49c6015df37f4ba0"
     },
     "mycareersfuture:bcd3d1aa37812b5ec44054f7db773dc4": {
       "company": "SERIAL MICROELECTRONICS PTE LTD",
@@ -3015,6 +3935,14 @@
       "tier": "A",
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-executive-cantal-electric-bd0921b84d45049c21edbe000a3075fb"
+    },
+    "mycareersfuture:bda1bc7473beec1a0e6b0e9782532ade": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Junior Sales Executive (Client Engagement | Training Provided)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/junior-sales-executive-auratalentsg-bda1bc7473beec1a0e6b0e9782532ade"
     },
     "mycareersfuture:bdd4c8e588e1be7b0e7713582ca285ae": {
       "company": "EA RECRUITMENT PTE. LTD.",
@@ -3080,6 +4008,22 @@
       "title": "Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/events/sales-executive-royal-org-c17947bd948fa047303051547c9a3053"
     },
+    "mycareersfuture:c20e269149eb2898becbd9d0d67afe9b": {
+      "company": "WECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Freight Forwarding Sales Executive \u2013 Indoor Sales (Class 3 Driving License Mandatory) [EL]",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/freight-forwarding-sales-executive-%E2%80%93-indoor-sales-el-wecruit-c20e269149eb2898becbd9d0d67afe9b"
+    },
+    "mycareersfuture:c266d762203b1d10c43f500c5abb6cd5": {
+      "company": "MURRAY PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/hospitality/sales-manager-murray-c266d762203b1d10c43f500c5abb6cd5"
+    },
     "mycareersfuture:c3c2704ab1e00540f388f884555a9135": {
       "company": "RECRUITFLASH PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -3095,6 +4039,14 @@
       "tier": "A",
       "title": "Business Development Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/business-development-manager-ag-acquisition-management-c4d43ed6d9e7d009c623b1bc6354a376"
+    },
+    "mycareersfuture:c541e5e17c7bf2818e98cd8898686b8f": {
+      "company": "SEVENS GROUP PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Properties Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/building-construction/properties-sales-executive-sevens-group-c541e5e17c7bf2818e98cd8898686b8f"
     },
     "mycareersfuture:c55ccc38d88dc10271d610d0e385a26e": {
       "company": "GOOD JOB CREATIONS (SINGAPORE) PTE. LTD.",
@@ -3112,6 +4064,14 @@
       "title": "Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/events/sales-executive-pu3-restaurant-c57af42484561610abb417785fd9fe06"
     },
+    "mycareersfuture:c65aa0f14508fc4b46856585cef0a5a1": {
+      "company": "DIRECT SEARCH ASIA PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager (Ocean Freight)",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-manager-direct-search-asia-c65aa0f14508fc4b46856585cef0a5a1"
+    },
     "mycareersfuture:c67e16a72b3b19c031a22c5ac059f3c9": {
       "company": "THINKADS PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -3120,6 +4080,14 @@
       "title": "Account Executive \u2013 Experiential & Events",
       "url": "https://www.mycareersfuture.gov.sg/job/events/account-executive-%E2%80%93-experiential-events-thinkads-c67e16a72b3b19c031a22c5ac059f3c9"
     },
+    "mycareersfuture:c6d5472db82e792464cf7fb7f35464e0": {
+      "company": "COMBO TECHNOLOGY PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (Cloud & AI)",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/sales-executive-combo-technology-c6d5472db82e792464cf7fb7f35464e0"
+    },
     "mycareersfuture:c70bbebec063902c0105d8ee2ca1b3a4": {
       "company": "D'TRAX DESIGN PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -3127,6 +4095,14 @@
       "tier": "A",
       "title": "Business Development Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/architecture/business-development-manager-dtrax-design-c70bbebec063902c0105d8ee2ca1b3a4"
+    },
+    "mycareersfuture:c75d700f11816739f0e4575ea0765226": {
+      "company": "RECRUIT EXPERT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Outdoor Sales Executive (North, Class 3)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/outdoor-sales-executive-recruit-expert-c75d700f11816739f0e4575ea0765226"
     },
     "mycareersfuture:c795ff06c10f30ee48c3f7990d38a4e8": {
       "company": "STRIVE MARKETING GROUP",
@@ -3143,6 +4119,14 @@
       "tier": "A",
       "title": "Sales Manager (Hydraulic Product)",
       "url": "https://www.mycareersfuture.gov.sg/job/manufacturing/sales-manager-talent-trader-group-c7b2ed41a8c409b07d622159b73da0bf"
+    },
+    "mycareersfuture:c91ed2b642f42ba5767e981425cd7c5f": {
+      "company": "SECUREX GS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-securex-gs-c91ed2b642f42ba5767e981425cd7c5f"
     },
     "mycareersfuture:c96b48297f3d862be39d7f230924f8c5": {
       "company": "MDM LING BAKERY PRIVATE LIMITED",
@@ -3168,6 +4152,14 @@
       "title": "Business Development Manager/ Director (Orthopaedic Medical Device) #79073",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-director-79073-anradus-ccb3392889c7d25d8f221508832f8498"
     },
+    "mycareersfuture:cce8557e79dcf9a8e9044d780cbc680c": {
+      "company": "WECRUIT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive (5 days / Funeral Industry) [EL]",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-el-wecruit-cce8557e79dcf9a8e9044d780cbc680c"
+    },
     "mycareersfuture:cd9839f9a53dd8232bc723c2c24d1638": {
       "company": "HUABAO ASIA PACIFIC PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -3175,6 +4167,14 @@
       "tier": "A",
       "title": "Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-huabao-asia-pacific-cd9839f9a53dd8232bc723c2c24d1638"
+    },
+    "mycareersfuture:ce0c264a9a02d68a06a7dd21f5cb914b": {
+      "company": "RMA CONTRACTS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Executive (Security & Facilities Management Services)",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-executive-rma-contracts-ce0c264a9a02d68a06a7dd21f5cb914b"
     },
     "mycareersfuture:ce4ba3202b05c15f9affe379f4ae4849": {
       "company": "GOOD JOB CREATIONS (SINGAPORE) PTE. LTD.",
@@ -3207,6 +4207,14 @@
       "tier": "A",
       "title": "Customer Engagement & Sales Executive (Mentorship)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/customer-engagement-sales-executive-growth-talent-recruit-cf41eea621508f8818c45691cfaae625"
+    },
+    "mycareersfuture:cfa27a884538e04b169fd7d1c613f6f2": {
+      "company": "MAX OUT MARKETING",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "#URGENT #EntryLevel #Fulltime \ud83c\udf40 Junior Business Development & Marketing Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/admin/urgent-entrylevel-fulltime-%F0%9F%8D%80-junior-business-development-marketing-executive-max-marketing-cfa27a884538e04b169fd7d1c613f6f2"
     },
     "mycareersfuture:cffd353939b8bd4f05148a7459efa7bd": {
       "company": "WILSON PARKING (SINGAPORE) PTE. LTD.",
@@ -3247,6 +4255,14 @@
       "tier": "A",
       "title": "Sales Manager (Steel / HRP/ Japan MNC / Regional / Trading) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/sales-manager-al70-trust-recruit-d23b2101670667cfa35338e7ff719fba"
+    },
+    "mycareersfuture:d2c48f0c792e946b983d2b38e227fc15": {
+      "company": "IMPOSSIBLE MARKETING SERVICES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager (Sales)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-impossible-marketing-services-d2c48f0c792e946b983d2b38e227fc15"
     },
     "mycareersfuture:d2e911da908cf45e0e91b4bfa29ae9e1": {
       "company": "UMELIFE (SINGAPORE) PTE. LTD.",
@@ -3304,6 +4320,14 @@
       "title": "Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/sales-executive-singmah-steel-refrigeration-d6946a25fd3edcf4b79fc6b08c538cd4"
     },
+    "mycareersfuture:d6eb3001e57e4520ccb0215a82e6747c": {
+      "company": "LE FONG BUILDING SERVICES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-le-fong-building-services-d6eb3001e57e4520ccb0215a82e6747c"
+    },
     "mycareersfuture:d73d9387da9c6961623c9c5b29e74301": {
       "company": "ML FORTIS SOLUTIONS PTE. LTD.",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -3319,6 +4343,14 @@
       "tier": "A",
       "title": "BUSINESS DEVELOPMENT MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/business-development-manager-sms-mobiles-d7622a9f8b226ab521e8dc7f3790eab8"
+    },
+    "mycareersfuture:d7741e307268d5b5921b7fbdf31c42ae": {
+      "company": "PROTUS WONDERLAND PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Account Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/accounting/account-executive-protus-wonderland-d7741e307268d5b5921b7fbdf31c42ae"
     },
     "mycareersfuture:d80b9cd88144d5359aec01d00319e6d7": {
       "company": "ELITEWORKS",
@@ -3343,6 +4375,14 @@
       "tier": "A",
       "title": "Business Development Manager (Commercial Office)",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-alwayshired-d8c6d4e513bc24263daed0398e3038ac"
+    },
+    "mycareersfuture:d91041e41da30274c02a166d8aef8621": {
+      "company": "ONESECURE ASIA PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/business-development-manager-onesecure-asia-d91041e41da30274c02a166d8aef8621"
     },
     "mycareersfuture:d9cc646201be4173a1cabd10d9ffff35": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
@@ -3408,6 +4448,14 @@
       "title": "Assistant Manager (Business Development)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/assistant-manager-grassroots-club-dbcfb2e4dff6f55f0e503c0f54ccd381"
     },
+    "mycareersfuture:dbe266081ac31d17f9d31ee0de92c513": {
+      "company": "VALOR ORGANISATION PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-valor-organisation-dbe266081ac31d17f9d31ee0de92c513"
+    },
     "mycareersfuture:dc3730a1a407a5b396fd8722f5b8fb42": {
       "company": "TVK CATERING SERVICES PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -3416,6 +4464,22 @@
       "title": "Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/sales-manager-tvk-catering-services-dc3730a1a407a5b396fd8722f5b8fb42"
     },
+    "mycareersfuture:dc82b95e6ef6211671d843419febfa42": {
+      "company": "GLOBIBO PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager - Event Technology (Singapore)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-manager-event-technology-globibo-dc82b95e6ef6211671d843419febfa42"
+    },
+    "mycareersfuture:dcc724f09c15a4e29b5dcbbfbd6c5012": {
+      "company": "ELITEWORKS",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 70.0,
+      "tier": "B",
+      "title": "SALES & MARKETING [BUSINESS DEVELOPMENT \ud83e\udd13\ud83d\udcdd]",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-marketing-business-development-%F0%9F%A4%93%F0%9F%93%9D-eliteworks-dcc724f09c15a4e29b5dcbbfbd6c5012"
+    },
     "mycareersfuture:dd11d2f045ec21d1966648072e7b270e": {
       "company": "ALIF-ENGINEERING PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -3423,6 +4487,22 @@
       "tier": "A",
       "title": "BUSINESS DEVELOPMENT MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-manager-alif-engineering-dd11d2f045ec21d1966648072e7b270e"
+    },
+    "mycareersfuture:de3630ba3bd69869dbd390fc074fe2ae": {
+      "company": "CLARITY E&C PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Account Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/accounting/account-executive-clarity-ec-de3630ba3bd69869dbd390fc074fe2ae"
+    },
+    "mycareersfuture:dee2d256b40ff0b85a4902875becdd36": {
+      "company": "TCI EXPRESS PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-tci-express-dee2d256b40ff0b85a4902875becdd36"
     },
     "mycareersfuture:df1650064e13adf1f618d3faa785af93": {
       "company": "QUESS SELECTION & SERVICES PTE. LTD.",
@@ -3455,6 +4535,14 @@
       "tier": "A",
       "title": "Sales Executive (Industrial Cleaning Equipment, Entry Level Welcome) - LCYL",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-lcyl-supreme-hr-advisory-e01439199c1ff323686137e662075168"
+    },
+    "mycareersfuture:e0659803871d9053c517309cbf5513f3": {
+      "company": "MOL LOGISTICS (SINGAPORE) PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/logistics/sales-executive-mol-logistics-e0659803871d9053c517309cbf5513f3"
     },
     "mycareersfuture:e1709fcb3b2126a31c608776ac3c9369": {
       "company": "BLUECUBE MEDIA PTE. LTD.",
@@ -3536,6 +4624,14 @@
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/business-development-executive-enru-lim-organization-e8abacd12e3c090e99a15b22d7c1feb4"
     },
+    "mycareersfuture:e8de945bd1e5d6d5fb6aa0830034490f": {
+      "company": "NSS SERVICES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development Manager",
+      "url": "https://www.mycareersfuture.gov.sg/job/professional-services/business-development-manager-nss-services-e8de945bd1e5d6d5fb6aa0830034490f"
+    },
     "mycareersfuture:eb2a0f792023a08ba6f5ceb99425bad9": {
       "company": "ALIF FIRE PROTECTION ENGINEERING PTE. LTD.",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -3543,6 +4639,22 @@
       "tier": "A",
       "title": "REGIONAL BUSINESS DEVELOPMENT MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/regional-business-development-manager-alif-fire-protection-engineering-eb2a0f792023a08ba6f5ceb99425bad9"
+    },
+    "mycareersfuture:ed04b7c96ca74235db5eaa963c8c8271": {
+      "company": "AVARON PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/sales-executive-avaron-ed04b7c96ca74235db5eaa963c8c8271"
+    },
+    "mycareersfuture:ed93e7c1930306dec75f408c37158dc3": {
+      "company": "GOLDEN VILLAGE MULTIPLEX PTE LTD",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Advertising Sales - Executive / Senior Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/advertising-sales-executive-senior-sales-executive-golden-village-multiplex-ed93e7c1930306dec75f408c37158dc3"
     },
     "mycareersfuture:f014b82e9afbf18437cb6f74f146c115": {
       "company": "ORANGE DESIGN AND RENOVATION PTE. LTD.",
@@ -3560,6 +4672,14 @@
       "title": "Outdoor Sales Executive (North, Class 3)",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/outdoor-sales-executive-recruit-expert-f035191fa861e25dd2e1a30556c775bf"
     },
+    "mycareersfuture:f1872c1cb6acc519e31c77d69c2b3d43": {
+      "company": "UPSAILS MARKETING",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Management Trainee \u2013 Sales & Business Development",
+      "url": "https://www.mycareersfuture.gov.sg/job/general-management/management-trainee-%E2%80%93-sales-business-development-upsails-marketing-f1872c1cb6acc519e31c77d69c2b3d43"
+    },
     "mycareersfuture:f28b9f150c1b8f190f5e717e2604ad3c": {
       "company": "HAYS SPECIALIST RECRUITMENT PTE. LTD.",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -3567,6 +4687,14 @@
       "tier": "A",
       "title": "Business Development Manager (Corporate Sales)",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-hays-specialist-recruitment-f28b9f150c1b8f190f5e717e2604ad3c"
+    },
+    "mycareersfuture:f3e1eb72a0ce79936fbe512716008f0e": {
+      "company": "TYSON JAY MANAGEMENT PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Executive (Direct) - up to $3,200 base + Comm + Transport",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-3200-base-comm-transport-tyson-jay-management-f3e1eb72a0ce79936fbe512716008f0e"
     },
     "mycareersfuture:f3f1d297551d947590e2e75e0c549072": {
       "company": "MAX OUT MARKETING",
@@ -3591,6 +4719,14 @@
       "tier": "A",
       "title": "Sales Executive / Trader (Steel/Commodity Trading/ Japan MNC) AL70",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/sales-executive-trader-al70-trust-recruit-f5794cdfc19e175530484086d68eada6"
+    },
+    "mycareersfuture:f5944ab24b67fdd26e3b2a38778591b1": {
+      "company": "RECRUIT NOW SINGAPORE PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Regional Sales Manager (Commercial Interior Fit-Out) | S$7,000 basic + Bonus",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/regional-sales-manager-s7000-basic-bonus-recruit-now-singapore-f5944ab24b67fdd26e3b2a38778591b1"
     },
     "mycareersfuture:f746b0a22934442d9c4b0e6b4217b966": {
       "company": "SEMBAS (ASIA) TRADING PTE. LTD.",
@@ -3656,6 +4792,22 @@
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-workhorse-sg-fcd0e232afbd81d17287378185cd5fa6"
     },
+    "mycareersfuture:fd547755b1760804fbe0af7960c11fda": {
+      "company": "HRNET VENTURES PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Business Development & Sales Senior Executive (FMCG / Retail) | Regional Expansion | Up to $4,500 + Comms",
+      "url": "https://www.mycareersfuture.gov.sg/job/purchasing/business-development-sales-senior-executive-regional-expansion-4500-comms-hrnet-ventures-fd547755b1760804fbe0af7960c11fda"
+    },
+    "mycareersfuture:fe782fc4326696710ac1231d8f609679": {
+      "company": "VALOR ORGANISATION PTE. LTD.",
+      "first_seen": "2026-09-28T04:53:51+00:00",
+      "score": 90.0,
+      "tier": "A",
+      "title": "Junior Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/junior-sales-executive-valor-organisation-fe782fc4326696710ac1231d8f609679"
+    },
     "mycareersfuture:ff6dcee7d853f1d8bfde256b8e6aa717": {
       "company": "ADECCO PERSONNEL PTE LTD",
       "first_seen": "2026-09-26T04:33:24+00:00",
@@ -3673,5 +4825,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/marketing/sales-executive-ryo-global-ffe8f5dda741d913c033799f0a2f6f59"
     }
   },
-  "updated_at": "2026-09-27T04:51:54+00:00"
+  "updated_at": "2026-09-28T04:53:51+00:00"
 }
