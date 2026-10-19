@@ -61,7 +61,7 @@ def test_run_end_to_end_without_network(tmp_path, config, monkeypatch):
 
     result = run(config, sources=sources, send=False)
     tiers = {g.job.source_id: g.tier for g in result.reported}
-    # 1 = 10/10 A; 2 = 7/10 B (no industry, salary, employment); 3 excluded (intern); 4 excluded (title)
+    # 1 = 11/11 A; 2 = 8/11 B (no industry, salary, employment); 3 excluded (intern); 4 excluded (title)
     assert tiers == {"1": "A", "2": "B"}
     assert result.stats["excluded"] == 2
     assert result.stats["fetched"] == 4
@@ -84,7 +84,7 @@ def test_run_director_below_tier(tmp_path, config):
     job = _job("a", "4", "Regional Business Development Director", description="widgets", salary_min=None,
                salary_max=None, employment_type="Contract")
     result = run(config, sources=[FakeSource([job])], send=False, write_reports=False, update_seen=False)
-    # title ok, industry no, excluded-terms ok, salary no, location ok, arrangement ok(unknown),
-    # seniority no (director), employment no, freshness ok, company ok -> 6/10 = 60% -> Tier B
-    assert [(g.tier, g.met_count) for g in result.reported] == [("B", 6)]
+    # Unmet: industry (weight 3), salary, seniority (director), employment type.
+    # 7 of 11 requirements met, 7 of 13 weighted points = 53.8% -> Tier C
+    assert [(g.tier, g.met_count) for g in result.reported] == [("C", 7)]
     assert result.stats["below_tier"] == 0

@@ -18,7 +18,7 @@ def test_markdown_report_has_tiers_links_and_score(config, good_job):
     assert "**1 new matches** · Tier A: 1" in md
     assert "## Tier A – strong match (1)" in md
     assert "[Business Development Manager](https://example.com/1)" in md
-    assert "| 10/10 (100%) |" in md
+    assert "| 11/11 (100%) |" in md
     assert "SGD 4,500-6,000/mo" in md
 
 

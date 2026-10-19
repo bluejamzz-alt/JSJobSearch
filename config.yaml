@@ -91,11 +91,25 @@ requirements:
   - id: industry
     description: Fintech / payments / SME / merchant domain
     type: description_keywords
+    weight: 3                  # missing it drops a posting from Tier A to Tier B
     min_matches: 1
+    # Specific phrases only: a bare "payment" also matched "follow up on customer payments".
     values:
       - fintech
-      - payment
-      - payments
+      - payment solution
+      - payment solutions
+      - payment gateway
+      - payment processing
+      - payment terminal
+      - payment terminals
+      - payments industry
+      - digital payments
+      - cashless
+      - e-wallet
+      - merchant acquiring
+      - merchant acquisition
+      - merchant services
+      - acquirer
       - SME
       - SMEs
       - merchant
@@ -113,6 +127,32 @@ requirements:
       - telesales
       - commission only
       - commission-only
+
+  - id: no_accounting_roles
+    description: Not an accounting role
+    type: exclude_keywords
+    must_have: true
+    scope: title_and_description
+    # "Account Executive" often means an accounts/bookkeeping job in Singapore.
+    values:
+      - accountant
+      - accounting executive
+      - accounts executive
+      - accounts assistant
+      - account assistant
+      - accounts payable
+      - accounts receivable
+      - AR/AP
+      - AP/AR
+      - full set of accounts
+      - bookkeeping
+      - book-keeping
+      - general ledger
+      - bank reconciliation
+      - bank reconciliations
+      - GST filing
+      - GST submission
+      - month-end closing
 
   - id: salary
     description: Salary at least SGD 4,000 / month

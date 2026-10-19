@@ -89,7 +89,8 @@ def test_industry_keywords_missing_lowers_score(config, good_job):
     g = grade_job(good_job, config["requirements"], config["grading"])
     c = _req_ids(g)["industry"]
     assert not c.met
-    assert g.score_pct == 90
+    # industry has weight 3: 10 of 13 weighted points = 76.9% -> Tier B
+    assert g.score_pct == 76.9 and g.tier == "B"
 
 
 def test_location_must_have(config, good_job):
@@ -121,9 +122,9 @@ def test_weights_change_percent(config, good_job):
     good_job.salary_min = good_job.salary_max = None
     reqs = [dict(r, weight=3) if r["id"] == "salary" else r for r in config["requirements"]]
     g = grade_job(good_job, reqs, config["grading"])
-    # 9 met with weight 1 each; salary weight 3 unmet -> 9/12 = 75%
-    assert g.score_pct == 75 and g.tier == "B"
-    assert g.met_count == 9 and g.total_count == 10
+    # salary weight 3 unmet, industry weight 3 met: 12 of 15 weighted points = 80%
+    assert g.score_pct == 80 and g.tier == "A"
+    assert g.met_count == 10 and g.total_count == 11
 
 
 def test_tier_thresholds():
@@ -148,6 +149,31 @@ def test_ai_blend_and_sort(config, good_job):
         Job(source="t", source_id="2", title="Sales Executive", company="X", url="", location="Singapore"),
         config["requirements"], config["grading"],
     )
-    assert other.tier == "A" and other.score_pct == 80
+    assert other.tier == "B" and other.score_pct == 69.2  # no description or salary: 9 of 13 points
     ordered = sorted([other, g, fresh], key=sort_key)
-    assert [x.final_score for x in ordered] == [100, 80, 75]  # A before B, higher score first
+    assert [x.final_score for x in ordered] == [100, 75, 69.2]  # A before B, higher score first
+
+
+def test_accounting_account_executive_excluded(config, good_job):
+    good_job.title = "Account Executive"
+    good_job.description = "Handle full set of accounts, AR/AP and GST filing for SME clients."
+    g = grade_job(good_job, config["requirements"], config["grading"])
+    assert g.excluded
+    assert {c.id: c for c in g.checks}["no_accounting_roles"].detail.startswith("contains excluded term")
+
+
+def test_sales_account_executive_with_key_accounts_kept(config, good_job):
+    good_job.title = "Account Executive"
+    good_job.description = "Manage key accounts and win new SME merchants for our payment solutions."
+    g = grade_job(good_job, config["requirements"], config["grading"])
+    assert not g.excluded and g.tier == "A"
+
+
+def test_incidental_payment_wording_no_longer_counts(config, good_job):
+    good_job.description = "Follow up on customer payments and prepare quotations for construction projects."
+    g = grade_job(good_job, config["requirements"], config["grading"])
+    assert not {c.id: c for c in g.checks}["industry"].met
+    assert g.tier == "B"
+    good_job.description = "Sell our payment gateway to online retailers."
+    g = grade_job(good_job, config["requirements"], config["grading"])
+    assert {c.id: c for c in g.checks}["industry"].met and g.tier == "A"
