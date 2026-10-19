@@ -148,6 +148,13 @@ requirements:
       - team leader
       - vp
       - vice president
+      # "inside sales" also matches support jobs that are not prospecting roles
+      - administrator
+      - admin
+      - engineer
+      - technician
+      - coordinator
+      - assistant
 
   - id: no_accounting_roles
     description: Not an accounting role
