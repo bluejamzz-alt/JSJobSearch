@@ -1,5 +1,7 @@
 # ============================================================================
-# JSJobSearch configuration
+# JSJobSearch configuration: SALES DEVELOPMENT (SDR / BDR) roles
+# The earlier BD / sales manager search is saved in profiles/bd-manager.yaml;
+# run it with:  python -m jobsearch -c profiles/bd-manager.yaml run
 # Edit this file to change what is searched, how postings are graded,
 # and where the digest is sent. Secrets (passwords, API keys) never go here;
 # they are read from environment variables / GitHub Actions secrets.
@@ -14,11 +16,13 @@ profile:
 # ---------------------------------------------------------------------------
 search:
   queries:
-    - business development manager
-    - business development executive
-    - sales manager
-    - account executive
-    - sales executive
+    - sales development representative
+    - business development representative
+    - sales development executive
+    - SDR
+    - BDR
+    - inside sales
+    - lead generation
   location: Singapore
   posted_within_days: 7        # ask sources for postings no older than this
   max_results_per_query: 60    # per source, per query
@@ -38,10 +42,10 @@ sources:
     filters:
       salary_min: 4000         # keeps postings whose top of range is at least this (MCF's own rule)
       position_levels:         # MCF labels: Manager, Senior Executive, Executive, Junior Executive,
-        - Manager              #   Middle Management, Senior Management, Professional,
-        - Senior Executive     #   Fresh/entry level, Non-executive
-        - Executive
+        - Senior Executive     #   Middle Management, Senior Management, Professional,
+        - Executive            #   Fresh/entry level, Non-executive
         - Junior Executive
+        - Fresh/entry level
       employment_types: []     # e.g. [Full Time, Permanent]
     fetch_details: true        # open each new posting for its full description (needed for keyword checks)
     max_details: 200           # cap per run; only postings not sent before and not excluded are opened
@@ -80,16 +84,22 @@ sources:
 # ---------------------------------------------------------------------------
 requirements:
   - id: title
-    description: Title is a target role
+    description: Title is a sales development (SDR / BDR) role
     type: title_keywords
     must_have: true
     values:
-      - business development
-      - "bd manager"
-      - bdm
-      - sales manager
-      - account executive
-      - sales executive
+      - sales development
+      - sdr
+      - business development representative
+      - business development rep
+      - bdr
+      - business development associate
+      - inside sales
+      - lead generation
+      - account development representative
+      - market development representative
+      - outbound sales
+      - pipeline generation
 
   - id: industry
     description: Fintech / payments / SME / merchant domain
@@ -130,6 +140,14 @@ requirements:
       - telesales
       - commission only
       - commission-only
+      # leadership titles: SDR Manager / Head of Sales Development are not entry roles
+      - manager
+      - director
+      - head of
+      - team lead
+      - team leader
+      - vp
+      - vice president
 
   - id: no_accounting_roles
     description: Not an accounting role
@@ -158,12 +176,30 @@ requirements:
       - month-end closing
 
   - id: salary
-    description: Salary at least SGD 4,000 / month
+    description: Base salary can reach SGD 4,000 / month
     type: salary_min
     value: 4000
     currency: SGD
     compare: max               # max = pass if the top of the stated range reaches 4,000
     unknown: unmet             # postings that hide salary do not get the point
+
+  - id: commission
+    description: Commission / incentives on top of base
+    type: description_keywords
+    weight: 2
+    min_matches: 1
+    values:
+      - commission
+      - commissions
+      - incentive
+      - incentives
+      - OTE
+      - on-target earnings
+      - on target earnings
+      - uncapped
+      - variable pay
+      - variable bonus
+      - sales bonus
 
   - id: location
     description: Based in Singapore
@@ -184,14 +220,14 @@ requirements:
       - remote
 
   - id: seniority
-    description: Manager / senior executive / executive / junior executive level
+    description: Entry to senior executive level (not manager)
     type: seniority
     unknown: met
     values:
-      - manager
       - senior executive
       - executive
       - junior executive
+      - fresh
 
   - id: employment_type
     description: Full-time / permanent

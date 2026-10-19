@@ -20,7 +20,8 @@ def load_fixture(name: str):
 
 @pytest.fixture
 def config():
-    return load_config(ROOT / "config.yaml")
+    # Tests use a frozen copy so editing your live config.yaml never breaks them.
+    return load_config(FIXTURES / "config_test.yaml")
 
 
 @pytest.fixture

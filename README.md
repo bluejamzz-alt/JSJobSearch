@@ -53,6 +53,12 @@ pip install -r requirements.txt
 
 ### 2. Edit `config.yaml`
 
+`config.yaml` is the search the daily workflow runs. It currently targets **sales development
+(SDR / BDR) roles**. The earlier BD / sales manager search is kept in `profiles/bd-manager.yaml`;
+run it on demand with `python -m jobsearch -c profiles/bd-manager.yaml run --dry-run`, or copy it
+over `config.yaml` to make it the daily search again. Tests use their own frozen copy
+(`tests/fixtures/config_test.yaml`), so editing `config.yaml` never breaks them.
+
 The file is commented. The parts you will most likely change:
 
 - `search.queries`: the searches to run.
