@@ -51,7 +51,10 @@ sources:
     endpoint: https://sg.jobstreet.com/api/jobsearch/v5/search
     page_size: 30
     max_pages: 2
-    fetch_details: false       # true = also open each job page for the full description (slower)
+    detail_endpoint: https://sg.jobstreet.com/graphql
+    fetch_details: true        # read each new posting's full description (search only gives a teaser)
+    max_details: 200           # cap per run; only postings not sent before and not excluded are read
+    detail_workers: 4
   linkedin:
     enabled: true
     endpoint: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search

@@ -11,6 +11,9 @@ from .base import BaseSource
 log = logging.getLogger(__name__)
 
 SITE = "https://sg.jobstreet.com"
+GRAPHQL_ENDPOINT = "https://sg.jobstreet.com/graphql"
+# Job pages sit behind a Cloudflare challenge; the GraphQL endpoint the site itself uses does not.
+DETAIL_QUERY = "query jobDetails($jobId: ID!) { jobDetails(id: $jobId) { job { id content(platform: WEB) } } }"
 
 
 class JobStreetSource(BaseSource):
@@ -38,27 +41,26 @@ class JobStreetSource(BaseSource):
                 log.warning("JobStreet HTTP %s for %r", resp.status_code, query)
                 break
             batch = self.parse(resp.json())
-            if self.settings.get("fetch_details"):
-                for job in batch:
-                    self._fill_details(job)
             jobs.extend(batch)
             if len(batch) < page_size or len(jobs) >= self.max_results:
                 break
             self.sleep(0.5)
         return self.dedupe(jobs)[: self.max_results]
 
-    def _fill_details(self, job: Job) -> None:
-        try:
-            resp = self.session.get(job.url)
-            if resp.status_code == 200:
-                text = parse_detail_html(resp.text)
-                if text:
-                    job.description = text
-                    if not job.work_arrangement:
-                        job.work_arrangement = infer_work_arrangement(job.title, text)
-            self.sleep()
-        except Exception as exc:
-            log.debug("JobStreet detail fetch failed for %s: %s", job.uid, exc)
+    def needs_detail(self, job: Job) -> bool:
+        return not job.raw.get("full_description")
+
+    def fill_detail(self, job: Job) -> bool:
+        endpoint = self.settings.get("detail_endpoint", GRAPHQL_ENDPOINT)
+        resp = self.session.post(
+            endpoint,
+            json={"operationName": "jobDetails", "query": DETAIL_QUERY, "variables": {"jobId": job.source_id}},
+            headers={"Content-Type": "application/json", "Accept": "application/json"},
+        )
+        if resp.status_code != 200:
+            log.debug("JobStreet detail HTTP %s for %s", resp.status_code, job.uid)
+            return False
+        return apply_detail(job, resp.json())
 
     @staticmethod
     def parse(payload: dict) -> list[Job]:
@@ -123,14 +125,16 @@ class JobStreetSource(BaseSource):
         return jobs
 
 
-def parse_detail_html(page_html: str) -> str:
-    """Extract the job description block from a JobStreet job page."""
+def apply_detail(job: Job, payload: dict) -> bool:
+    """Replace the search teaser with the full ad text from a GraphQL jobDetails response."""
     try:
-        from bs4 import BeautifulSoup
-    except ImportError:  # pragma: no cover
-        return ""
-    soup = BeautifulSoup(page_html, "html.parser")
-    node = soup.find(attrs={"data-automation": "jobAdDetails"})
-    if node is None:
-        return ""
-    return html_to_text(str(node))
+        content = payload["data"]["jobDetails"]["job"]["content"]
+    except (KeyError, TypeError):
+        return False
+    text = html_to_text(content or "")
+    if not text:
+        return False
+    job.description = text
+    job.raw["full_description"] = True
+    job.work_arrangement = job.work_arrangement or infer_work_arrangement(job.title, text)
+    return True

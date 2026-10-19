@@ -5,7 +5,7 @@ from conftest import load_fixture
 from jobsearch.grader import grade_job
 from jobsearch.models import Job
 from jobsearch.sources.adzuna import AdzunaSource
-from jobsearch.sources.jobstreet import JobStreetSource, parse_detail_html
+from jobsearch.sources.jobstreet import JobStreetSource, apply_detail as js_apply_detail
 from jobsearch.sources.jooble import JoobleSource
 from jobsearch.sources.linkedin import LinkedInSource, apply_detail_html
 from jobsearch.sources.mycareersfuture import MyCareersFutureSource
@@ -48,10 +48,55 @@ def test_jobstreet_parse(config):
     assert g.tier == "A" and not g.excluded
 
 
-def test_jobstreet_detail_html():
-    html = "<html><body><div data-automation='jobAdDetails'><p>Full <b>description</b></p></div></body></html>"
-    assert parse_detail_html(html) == "Full description"
-    assert parse_detail_html("<html></html>") == ""
+def test_jobstreet_graphql_detail(config):
+    job = JobStreetSource.parse(load_fixture("jobstreet.json"))[0]
+    payload = load_fixture("jobstreet_detail_live.json")
+    assert js_apply_detail(job, payload)
+    assert job.raw["full_description"] is True
+    assert len(job.description) > 200 and "<" not in job.description
+    assert not js_apply_detail(job, {"data": {"jobDetails": None}})
+    assert not js_apply_detail(job, {"errors": [{"message": "bad"}]})
+
+
+class _Resp:
+    def __init__(self, payload, status=200):
+        self._p, self.status_code = payload, status
+
+    def json(self):
+        return self._p
+
+
+class _GraphQLSession:
+    def __init__(self, contents):
+        self.contents, self.posts = contents, []
+
+    def post(self, url, json=None, headers=None, **kw):
+        self.posts.append((url, json))
+        job_id = json["variables"]["jobId"]
+        if job_id not in self.contents:
+            return _Resp({}, status=500)
+        return _Resp({"data": {"jobDetails": {"job": {"id": job_id, "content": self.contents[job_id]}}}})
+
+
+def test_jobstreet_enrich_uses_graphql_and_skips_filled(config):
+    jobs = [Job(source="jobstreet", source_id=str(i), title="Sales Executive", company="c", url="",
+                description="teaser") for i in range(3)]
+    jobs[2].raw["full_description"] = True  # already has the full text
+    session = _GraphQLSession({"0": "<p>We sell <b>payment solutions</b> to SMEs.</p>"})
+    src = JobStreetSource(dict(config["sources"]["jobstreet"]), config["search"], session=session)
+    assert src.enrich(jobs) == 1  # job 1 fails (HTTP 500) and is skipped, not raised
+    assert [p[1]["variables"]["jobId"] for p in session.posts] == ["0", "1"]
+    assert session.posts[0][0] == "https://sg.jobstreet.com/graphql"
+    assert jobs[0].description == "We sell payment solutions to SMEs."
+    assert jobs[1].description == "teaser"
+    g = grade_job(jobs[0], config["requirements"], config["grading"])
+    assert {c.id: c for c in g.checks}["industry"].met
+
+
+def test_jobstreet_enrich_off(config):
+    job = Job(source="jobstreet", source_id="0", title="t", company="c", url="")
+    settings = dict(config["sources"]["jobstreet"], fetch_details=False)
+    assert JobStreetSource(settings, config["search"], session=_GraphQLSession({})).enrich([job]) == 0
 
 
 def test_linkedin_list_and_detail(config):

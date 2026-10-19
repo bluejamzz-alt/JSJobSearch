@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import time
+from concurrent.futures import ThreadPoolExecutor
 from typing import Iterable
 
 import requests
@@ -54,6 +55,7 @@ class BaseSource:
 
     name = "base"
     display_name = "Base"
+    fetch_details_default = False  # used when config does not set fetch_details
 
     def __init__(self, settings: dict, search_cfg: dict, session: requests.Session | None = None):
         self.settings = settings or {}
@@ -66,11 +68,39 @@ class BaseSource:
 
     # -- helpers ------------------------------------------------------------
     def enrich(self, jobs: list[Job]) -> int:
-        """Optional second pass on postings that will be graded (e.g. fetch full descriptions).
+        """Second pass on postings that will be graded: fetch full details where the board supports it.
 
-        Called once per run with only the postings not sent before. Returns how many were enriched.
+        The pipeline calls this once per run with only postings not sent before and not already
+        excluded, best first. Subclasses implement ``needs_detail`` and ``fill_detail``; this
+        method applies ``fetch_details``, ``max_details`` and ``detail_workers`` from config.
         """
-        return 0
+        if not self.settings.get("fetch_details", self.fetch_details_default):
+            return 0
+        todo = [j for j in jobs if j.source == self.name and self.needs_detail(j)]
+        cap = int(self.settings.get("max_details", 200) or 0)
+        if cap and len(todo) > cap:
+            log.info("%s: %d postings need details; fetching the first %d", self.display_name, len(todo), cap)
+            todo = todo[:cap]
+        if not todo:
+            return 0
+        workers = max(1, int(self.settings.get("detail_workers", 4) or 1))
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            filled = sum(pool.map(self._safe_fill_detail, todo))
+        log.info("%s: filled details for %d of %d postings", self.display_name, filled, len(todo))
+        return filled
+
+    def needs_detail(self, job: Job) -> bool:
+        return False
+
+    def fill_detail(self, job: Job) -> bool:
+        return False
+
+    def _safe_fill_detail(self, job: Job) -> bool:
+        try:
+            return bool(self.fill_detail(job))
+        except Exception as exc:
+            log.debug("%s: detail failed for %s: %s", self.display_name, job.uid, exc)
+            return False
 
     def portal_url(self, query: str) -> str:
         """Link to the same search on the board's website, or "" if not supported."""

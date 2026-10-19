@@ -9,7 +9,6 @@ record to get the full job description (the search API does not return it).
 from __future__ import annotations
 
 import logging
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlencode
 
@@ -30,6 +29,7 @@ _FWA_ARRANGEMENT = {"telecommuting": "hybrid"}
 class MyCareersFutureSource(BaseSource):
     name = "mycareersfuture"
     display_name = "MyCareersFuture"
+    fetch_details_default = True  # search results never include descriptions
 
     # -- search -------------------------------------------------------------
     @property
@@ -77,34 +77,16 @@ class MyCareersFutureSource(BaseSource):
         return self.dedupe(jobs)[: self.max_results]
 
     # -- details ------------------------------------------------------------
-    def enrich(self, jobs: list[Job]) -> int:
-        """Fetch full descriptions for ``jobs`` (capped by max_details). Returns how many were filled."""
-        if not self.settings.get("fetch_details", True):
-            return 0
-        todo = [j for j in jobs if j.source == self.name and not j.description.strip()]
-        cap = int(self.settings.get("max_details", 200) or 0)
-        if cap and len(todo) > cap:
-            log.info("MyCareersFuture: %d postings need details; fetching the first %d", len(todo), cap)
-            todo = todo[:cap]
-        if not todo:
-            return 0
-        workers = max(1, int(self.settings.get("detail_workers", 4) or 1))
-        with ThreadPoolExecutor(max_workers=workers) as pool:
-            filled = sum(pool.map(self._fill_detail, todo))
-        log.info("MyCareersFuture: filled details for %d of %d postings", filled, len(todo))
-        return filled
+    def needs_detail(self, job: Job) -> bool:
+        return not job.description.strip()
 
-    def _fill_detail(self, job: Job) -> bool:
+    def fill_detail(self, job: Job) -> bool:
         url = self.settings.get("detail_endpoint", DETAIL_ENDPOINT).format(uuid=job.source_id)
-        try:
-            resp = self.session.get(url, headers={"Accept": "application/json"})
-            if resp.status_code != 200:
-                log.debug("MyCareersFuture detail HTTP %s for %s", resp.status_code, job.uid)
-                return False
-            return apply_detail(job, resp.json())
-        except Exception as exc:
-            log.debug("MyCareersFuture detail failed for %s: %s", job.uid, exc)
+        resp = self.session.get(url, headers={"Accept": "application/json"})
+        if resp.status_code != 200:
+            log.debug("MyCareersFuture detail HTTP %s for %s", resp.status_code, job.uid)
             return False
+        return apply_detail(job, resp.json())
 
     # -- portal link --------------------------------------------------------
     def portal_url(self, query: str) -> str:

@@ -29,7 +29,7 @@ Tier A – strong match (3)
 | Source | Needs an API key | Notes |
 |---|---|---|
 | MyCareersFuture | No | Public JSON API. Best Singapore coverage. Uses the portal's own filters (minimum salary, position levels, employment types), pages back through the whole `posted_within_days` window, and opens each new posting for its full description. |
-| JobStreet SG | No | JSON endpoint used by the website. Salary shown when the employer states it. |
+| JobStreet SG | No | JSON search endpoint used by the website. Each new posting's full description is read through the site's GraphQL endpoint (job pages themselves are behind Cloudflare). Salary shown when the employer states it. |
 | LinkedIn | No | Public listing pages. Detail pages give description, level and type; capped per run. |
 | Adzuna | Free key | Turn on in `config.yaml` after adding `ADZUNA_APP_ID` / `ADZUNA_APP_KEY`. |
 | Jooble | Free key | Turn on after adding `JOOBLE_API_KEY`. |
