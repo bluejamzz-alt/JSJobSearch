@@ -33,7 +33,7 @@ def recipients(to_env: str = "EMAIL_TO") -> list[str]:
 
 
 def send_email(subject: str, html_body: str, text_body: str, to: list[str],
-               attachments: dict[str, str] | None = None) -> None:
+               attachments: dict[str, str | bytes] | None = None) -> None:
     cfg = smtp_settings()
     if not to:
         raise EmailConfigError("No recipients: set EMAIL_TO")
@@ -45,8 +45,16 @@ def send_email(subject: str, html_body: str, text_body: str, to: list[str],
     msg.set_content(text_body)
     msg.add_alternative(html_body, subtype="html")
     for filename, content in (attachments or {}).items():
-        msg.add_attachment(content.encode("utf-8"), maintype="text",
-                           subtype="markdown" if filename.endswith(".md") else "plain", filename=filename)
+        if isinstance(content, bytes):
+            if not content:
+                continue
+            maintype, subtype = "application", "octet-stream"
+            if filename.endswith(".xlsx"):
+                subtype = "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            msg.add_attachment(content, maintype=maintype, subtype=subtype, filename=filename)
+        else:
+            msg.add_attachment(content.encode("utf-8"), maintype="text",
+                               subtype="markdown" if filename.endswith(".md") else "plain", filename=filename)
 
     if cfg["port"] == 465:
         with smtplib.SMTP_SSL(cfg["host"], cfg["port"], timeout=60) as smtp:

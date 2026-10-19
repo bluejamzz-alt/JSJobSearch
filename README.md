@@ -20,8 +20,11 @@ Tier A – strong match (3)
 4. **Tier.** A ≥ 80%, B ≥ 60%, C ≥ 40%. Below C is not sent. A failed *must-have*
    requirement (wrong title, excluded term, wrong country, blacklisted company) excludes the posting.
 5. **Remember.** `data/seen_jobs.json` records what was sent, so each digest only has new postings.
-6. **Deliver.** HTML email grouped by tier, with the Markdown digest attached. Reports are also
-   saved to `reports/YYYY-MM-DD.md` and `.html`. The digest also links each query to the same
+6. **Deliver.** HTML email grouped by tier, with an Excel workbook and the Markdown digest attached.
+   Reports are also saved to `reports/YYYY-MM-DD.md`, `.html` and `.xlsx`. The Excel file has a
+   *Matches* sheet (one filterable row per posting, clickable titles, monthly salary as numbers,
+   and Status / Notes columns for tracking applications) and a *Summary* sheet whose counts are
+   formulas over *Matches*. The digest also links each query to the same
    search on the MyCareersFuture website, so you can browse it by hand.
 
 ## Job boards

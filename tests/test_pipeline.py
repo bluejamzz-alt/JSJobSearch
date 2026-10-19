@@ -67,7 +67,8 @@ def test_run_end_to_end_without_network(tmp_path, config, monkeypatch):
     assert result.stats["fetched"] == 4
     assert result.stats["per_source"] == {"Fake": 4}
     assert (tmp_path / "reports" / "latest.md").exists()
-    assert len(result.report_paths) == 3
+    assert len(result.report_paths) == 4
+    assert (tmp_path / "reports" / f"{result.run_date:%Y-%m-%d}.xlsx").exists()
 
     # second run: same postings are now "seen" and not reported again
     result2 = run(config, sources=sources, send=False)

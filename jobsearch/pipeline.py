@@ -10,6 +10,7 @@ from pathlib import Path
 
 from .grader import apply_ai_blend, grade_all, sort_key, tier_at_least
 from .models import GradedJob, Job
+from .excel import workbook_bytes
 from .report import render_html, render_markdown, render_telegram
 from .sources import build_sources
 from .sources.base import BaseSource
@@ -28,6 +29,7 @@ class RunResult:
     stats: dict
     markdown: str = ""
     html: str = ""
+    xlsx: bytes = b""
     report_paths: list[Path] = field(default_factory=list)
     email_sent: bool = False
     telegram_sent: bool = False
@@ -125,6 +127,7 @@ def run(config: dict, *, sources: list[BaseSource] | None = None, send: bool = T
     result = RunResult(run_date=run_date, reported=kept, stats=stats)
     result.markdown = render_markdown(kept, run_date, stats, grading["tiers"])
     result.html = render_html(kept, run_date, stats, grading["tiers"])
+    result.xlsx = workbook_bytes(kept, run_date, stats, grading["tiers"])
 
     if write_reports:
         result.report_paths = write_report_files(result, delivery.get("reports_dir", "reports"))
@@ -164,8 +167,10 @@ def write_report_files(result: RunResult, reports_dir: str) -> list[Path]:
     html_path.write_text(result.html, encoding="utf-8")
     latest = out_dir / "latest.md"
     latest.write_text(result.markdown, encoding="utf-8")
-    log.info("Reports written: %s, %s", md_path, html_path)
-    return [md_path, html_path, latest]
+    xlsx_path = out_dir / f"{stem}.xlsx"
+    xlsx_path.write_bytes(result.xlsx)
+    log.info("Reports written: %s, %s, %s", md_path, html_path, xlsx_path)
+    return [md_path, html_path, latest, xlsx_path]
 
 
 def deliver(result: RunResult, config: dict) -> None:
@@ -193,7 +198,10 @@ def deliver(result: RunResult, config: dict) -> None:
                     html_body=result.html,
                     text_body=result.markdown,
                     to=recipients(email_cfg.get("to_env", "EMAIL_TO")),
-                    attachments={f"job-digest-{result.run_date.strftime('%Y-%m-%d')}.md": result.markdown},
+                    attachments={
+                        f"job-digest-{result.run_date.strftime('%Y-%m-%d')}.xlsx": result.xlsx,
+                        f"job-digest-{result.run_date.strftime('%Y-%m-%d')}.md": result.markdown,
+                    },
                 )
                 result.email_sent = True
             except EmailConfigError as exc:
