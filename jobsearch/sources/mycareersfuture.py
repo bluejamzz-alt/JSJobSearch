@@ -1,8 +1,17 @@
-"""MyCareersFuture (Singapore government job portal) via its public search API."""
+"""MyCareersFuture (Singapore government job portal) via its public API.
+
+Search uses the same filters as the MCF website (minimum salary, position
+levels, employment types), pages newest-first until postings fall outside
+``search.posted_within_days``, then ``enrich`` opens each new posting's detail
+record to get the full job description (the search API does not return it).
+"""
 
 from __future__ import annotations
 
 import logging
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta, timezone
+from urllib.parse import urlencode
 
 from ..models import Job
 from ..utils import html_to_text, infer_work_arrangement, parse_datetime, slugify
@@ -11,22 +20,43 @@ from .base import BaseSource
 log = logging.getLogger(__name__)
 
 SITE = "https://www.mycareersfuture.gov.sg"
+SEARCH_ENDPOINT = "https://api.mycareersfuture.gov.sg/v2/search"
+DETAIL_ENDPOINT = "https://api.mycareersfuture.gov.sg/v2/jobs/{uuid}"
+
+# MCF "flexible work arrangement" labels that tell us where the work happens.
+_FWA_ARRANGEMENT = {"telecommuting": "hybrid"}
 
 
 class MyCareersFutureSource(BaseSource):
     name = "mycareersfuture"
     display_name = "MyCareersFuture"
 
+    # -- search -------------------------------------------------------------
+    @property
+    def filters(self) -> dict:
+        return self.settings.get("filters") or {}
+
+    def search_body(self, query: str) -> dict:
+        body: dict = {"search": query, "sortBy": ["new_posting_date"]}
+        f = self.filters
+        salary = f.get("salary_min", self.settings.get("min_salary"))
+        if salary:
+            body["salary"] = int(salary)
+        if f.get("position_levels"):
+            body["positionLevels"] = [str(v) for v in f["position_levels"]]
+        if f.get("employment_types"):
+            body["employmentTypes"] = [str(v) for v in f["employment_types"]]
+        return body
+
     def search(self, query: str) -> list[Job]:
-        endpoint = self.settings.get("endpoint", "https://api.mycareersfuture.gov.sg/v2/search")
+        endpoint = self.settings.get("endpoint", SEARCH_ENDPOINT)
         page_size = int(self.settings.get("page_size", 100) or 100)
-        max_pages = int(self.settings.get("max_pages", 2) or 2)
-        body = {"search": query, "sortBy": ["new_posting_date"]}
-        if self.settings.get("min_salary"):
-            body["salary"] = int(self.settings["min_salary"])
+        body = self.search_body(query)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=self.posted_within_days + 1)
 
         jobs: list[Job] = []
-        for page in range(max_pages):
+        page = 0
+        while len(jobs) < self.max_results:
             resp = self.session.post(
                 endpoint,
                 params={"limit": page_size, "page": page},
@@ -34,15 +64,58 @@ class MyCareersFutureSource(BaseSource):
                 headers={"Content-Type": "application/json", "Accept": "application/json"},
             )
             if resp.status_code != 200:
-                log.warning("MyCareersFuture HTTP %s for %r", resp.status_code, query)
+                log.warning("MyCareersFuture HTTP %s for %r (page %d)", resp.status_code, query, page)
                 break
             batch = self.parse(resp.json())
-            jobs.extend(batch)
-            if len(batch) < page_size or len(jobs) >= self.max_results:
+            fresh = [j for j in batch if j.posted_at is None or j.posted_at >= cutoff]
+            jobs.extend(fresh)
+            # Results are newest first: stop once a page reaches past the date window.
+            if len(batch) < page_size or len(fresh) < len(batch):
                 break
+            page += 1
             self.sleep(0.5)
         return self.dedupe(jobs)[: self.max_results]
 
+    # -- details ------------------------------------------------------------
+    def enrich(self, jobs: list[Job]) -> int:
+        """Fetch full descriptions for ``jobs`` (capped by max_details). Returns how many were filled."""
+        if not self.settings.get("fetch_details", True):
+            return 0
+        todo = [j for j in jobs if j.source == self.name and not j.description.strip()]
+        cap = int(self.settings.get("max_details", 200) or 0)
+        if cap and len(todo) > cap:
+            log.info("MyCareersFuture: %d postings need details; fetching the first %d", len(todo), cap)
+            todo = todo[:cap]
+        if not todo:
+            return 0
+        workers = max(1, int(self.settings.get("detail_workers", 4) or 1))
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            filled = sum(pool.map(self._fill_detail, todo))
+        log.info("MyCareersFuture: filled details for %d of %d postings", filled, len(todo))
+        return filled
+
+    def _fill_detail(self, job: Job) -> bool:
+        url = self.settings.get("detail_endpoint", DETAIL_ENDPOINT).format(uuid=job.source_id)
+        try:
+            resp = self.session.get(url, headers={"Accept": "application/json"})
+            if resp.status_code != 200:
+                log.debug("MyCareersFuture detail HTTP %s for %s", resp.status_code, job.uid)
+                return False
+            return apply_detail(job, resp.json())
+        except Exception as exc:
+            log.debug("MyCareersFuture detail failed for %s: %s", job.uid, exc)
+            return False
+
+    # -- portal link --------------------------------------------------------
+    def portal_url(self, query: str) -> str:
+        """The same search on the MyCareersFuture website, for opening by hand."""
+        params = {"search": query, "sortBy": "new_posting_date", "page": 0}
+        salary = self.filters.get("salary_min", self.settings.get("min_salary"))
+        if salary:
+            params["salary"] = int(salary)
+        return f"{SITE}/search?{urlencode(params)}"
+
+    # -- parsing ------------------------------------------------------------
     @staticmethod
     def parse(payload: dict) -> list[Job]:
         results = payload.get("results") or payload.get("jobs") or []
@@ -50,42 +123,73 @@ class MyCareersFutureSource(BaseSource):
         for item in results:
             if not isinstance(item, dict):
                 continue
-            uuid = str(item.get("uuid") or item.get("id") or "")
-            title = (item.get("title") or "").strip()
-            if not uuid or not title:
-                continue
-            company = ((item.get("postedCompany") or {}).get("name")
-                       or (item.get("hiringCompany") or {}).get("name") or "").strip()
-            meta = item.get("metadata") or {}
-            url = meta.get("jobDetailsUrl") or _build_url(item, uuid, title, company)
-            salary = item.get("salary") or {}
-            salary_type = ((salary.get("type") or {}).get("salaryType") or "Monthly").lower()
-            period = "annual" if "ann" in salary_type or "year" in salary_type else "monthly"
-            emp_types = [e.get("employmentType", "") for e in item.get("employmentTypes") or [] if isinstance(e, dict)]
-            levels = [p.get("position", "") for p in item.get("positionLevels") or [] if isinstance(p, dict)]
-            description = html_to_text(item.get("description") or "")
-            posted = parse_datetime(meta.get("newPostingDate") or meta.get("originalPostingDate"))
-            jobs.append(
-                Job(
-                    source="mycareersfuture",
-                    source_id=uuid,
-                    title=title,
-                    company=company or "Undisclosed",
-                    url=url,
-                    location="Singapore",
-                    description=description,
-                    salary_min=_num(salary.get("minimum")),
-                    salary_max=_num(salary.get("maximum")),
-                    salary_currency="SGD",
-                    salary_period=period,
-                    employment_type=", ".join(t for t in emp_types if t),
-                    seniority=", ".join(l for l in levels if l),
-                    work_arrangement=infer_work_arrangement(title, description),
-                    posted_at=posted,
-                    raw={"jobPostId": meta.get("jobPostId"), "categories": item.get("categories")},
-                )
-            )
+            job = _job_from_item(item)
+            if job is not None:
+                jobs.append(job)
         return jobs
+
+
+def _job_from_item(item: dict) -> Job | None:
+    uuid = str(item.get("uuid") or item.get("id") or "")
+    title = (item.get("title") or "").strip()
+    if not uuid or not title:
+        return None
+    company = ((item.get("postedCompany") or {}).get("name")
+               or (item.get("hiringCompany") or {}).get("name") or "").strip()
+    meta = item.get("metadata") or {}
+    url = meta.get("jobDetailsUrl") or _build_url(item, uuid, title, company)
+    salary = item.get("salary") or {}
+    salary_type = ((salary.get("type") or {}).get("salaryType") or "Monthly").lower()
+    period = "annual" if "ann" in salary_type or "year" in salary_type else "monthly"
+    lo, hi = _num(salary.get("minimum")), _num(salary.get("maximum"))
+    if meta.get("isHideSalary"):
+        lo = hi = None
+    emp_types = [e.get("employmentType", "") for e in item.get("employmentTypes") or [] if isinstance(e, dict)]
+    levels = [p.get("position", "") for p in item.get("positionLevels") or [] if isinstance(p, dict)]
+    description = html_to_text(item.get("description") or "")
+    posted = parse_datetime(meta.get("newPostingDate") or meta.get("originalPostingDate"))
+    return Job(
+        source="mycareersfuture",
+        source_id=uuid,
+        title=title,
+        company=company or "Undisclosed",
+        url=url,
+        location="Singapore",
+        description=description,
+        salary_min=lo,
+        salary_max=hi,
+        salary_currency="SGD",
+        salary_period=period,
+        employment_type=", ".join(t for t in emp_types if t),
+        seniority=", ".join(l for l in levels if l),
+        work_arrangement=infer_work_arrangement(title, description) or _fwa_arrangement(item),
+        posted_at=posted,
+        raw={"jobPostId": meta.get("jobPostId"), "categories": item.get("categories")},
+    )
+
+
+def apply_detail(job: Job, detail: dict) -> bool:
+    """Copy the description (and anything else the search result lacked) onto ``job``."""
+    if not isinstance(detail, dict):
+        return False
+    text = html_to_text(detail.get("description") or "")
+    if not text:
+        return False
+    job.description = text
+    job.work_arrangement = infer_work_arrangement(job.title, text) or job.work_arrangement or _fwa_arrangement(detail)
+    if not job.employment_type:
+        types = [e.get("employmentType", "") for e in detail.get("employmentTypes") or [] if isinstance(e, dict)]
+        job.employment_type = ", ".join(t for t in types if t)
+    return True
+
+
+def _fwa_arrangement(item: dict) -> str:
+    for f in item.get("flexibleWorkArrangements") or []:
+        label = (f.get("flexibleWorkArrangement") if isinstance(f, dict) else str(f)) or ""
+        mapped = _FWA_ARRANGEMENT.get(label.strip().lower())
+        if mapped:
+            return mapped
+    return ""
 
 
 def _num(value):

@@ -65,9 +65,21 @@ class BaseSource:
         raise NotImplementedError
 
     # -- helpers ------------------------------------------------------------
+    def enrich(self, jobs: list[Job]) -> int:
+        """Optional second pass on postings that will be graded (e.g. fetch full descriptions).
+
+        Called once per run with only the postings not sent before. Returns how many were enriched.
+        """
+        return 0
+
+    def portal_url(self, query: str) -> str:
+        """Link to the same search on the board's website, or "" if not supported."""
+        return ""
+
     @property
     def max_results(self) -> int:
-        return int(self.search_cfg.get("max_results_per_query", 60) or 60)
+        override = self.settings.get("max_results")
+        return int(override or self.search_cfg.get("max_results_per_query", 60) or 60)
 
     @property
     def location(self) -> str:

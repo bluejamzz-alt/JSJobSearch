@@ -79,15 +79,26 @@ def run(config: dict, *, sources: list[BaseSource] | None = None, send: bool = T
     jobs, duplicates = deduplicate(raw_jobs)
     log.info("Fetched %d postings, %d unique after de-duplication", len(raw_jobs), len(jobs))
 
+    store = store or SeenStore(config["storage"]["seen_file"])
+    already_seen = [j for j in jobs if store.is_seen(j.uid)]
+    if not include_seen:
+        jobs = [j for j in jobs if not store.is_seen(j.uid)]
+
+    # Second pass (e.g. MyCareersFuture full descriptions), only for postings that survive a
+    # first grading, best first, so detail-fetch caps go to the most promising ones. Then re-grade.
+    first_pass = sorted((g for g in grade_all(jobs, config["requirements"], grading) if not g.excluded),
+                        key=sort_key)
+    candidates = [g.job for g in first_pass]
+    for source in sources:
+        try:
+            source.enrich(candidates)
+        except Exception as exc:
+            log.error("%s: enrichment failed: %s", source.display_name, exc)
+
     graded = grade_all(jobs, config["requirements"], grading)
     excluded = [g for g in graded if g.excluded]
     kept = [g for g in graded if not g.excluded and tier_at_least(g.tier, min_tier)]
     below = len(graded) - len(excluded) - len(kept)
-
-    store = store or SeenStore(config["storage"]["seen_file"])
-    already_seen = [g for g in kept if store.is_seen(g.job.uid)]
-    if not include_seen:
-        kept = [g for g in kept if not store.is_seen(g.job.uid)]
 
     ai_cfg = config.get("ai_grading") or {}
     if ai_cfg.get("enabled") and kept:
@@ -109,6 +120,7 @@ def run(config: dict, *, sources: list[BaseSource] | None = None, send: bool = T
         "seen": len(already_seen),
         "min_tier": min_tier,
         "tiers": dict(Counter(g.tier for g in kept)),
+        "portal_links": portal_links(sources, config["search"]["queries"]),
     }
     result = RunResult(run_date=run_date, reported=kept, stats=stats)
     result.markdown = render_markdown(kept, run_date, stats, grading["tiers"])
@@ -126,6 +138,20 @@ def run(config: dict, *, sources: list[BaseSource] | None = None, send: bool = T
         store.save()
         log.info("Seen store updated: %d postings remembered", len(store))
     return result
+
+
+def portal_links(sources: list[BaseSource], queries: list[str]) -> list[tuple[str, str]]:
+    """(label, url) pairs for opening each query on boards that support it."""
+    links: list[tuple[str, str]] = []
+    for source in sources:
+        for query in queries:
+            try:
+                url = source.portal_url(query)
+            except Exception:
+                url = ""
+            if url:
+                links.append((f"{source.display_name}: {query}", url))
+    return links
 
 
 def write_report_files(result: RunResult, reports_dir: str) -> list[Path]:

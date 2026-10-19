@@ -59,6 +59,10 @@ def render_markdown(jobs: list[GradedJob], run_date: datetime, stats: dict, tier
     lines.append("")
     lines.append(f"Score = requirements met ÷ total. {tier_thresholds_text(tiers)}.")
     lines.append("")
+    links = stats.get("portal_links") or []
+    if links:
+        lines.append("Open the same searches on the portal: " + " · ".join(f"[{_md(l)}]({u})" for l, u in links))
+        lines.append("")
     if not jobs:
         lines.append("_No new postings met the bar today._")
         return "\n".join(lines) + "\n"
@@ -123,6 +127,10 @@ def render_html(jobs: list[GradedJob], run_date: datetime, stats: dict, tiers: d
         f"{stats.get('seen', 0)} already sent earlier.<br>"
         f"Score = requirements met ÷ total. {e(tier_thresholds_text(tiers))}.</p>"
     )
+    links = stats.get("portal_links") or []
+    if links:
+        parts.append("<p class='muted'>Open the same searches on the portal: "
+                     + " · ".join(f"<a href='{e(u)}'>{e(l)}</a>" for l, u in links) + "</p>")
     if not jobs:
         parts.append("<p><em>No new postings met the bar today.</em></p></body></html>")
         return "".join(parts)

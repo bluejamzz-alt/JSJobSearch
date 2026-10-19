@@ -21,13 +21,14 @@ Tier A – strong match (3)
    requirement (wrong title, excluded term, wrong country, blacklisted company) excludes the posting.
 5. **Remember.** `data/seen_jobs.json` records what was sent, so each digest only has new postings.
 6. **Deliver.** HTML email grouped by tier, with the Markdown digest attached. Reports are also
-   saved to `reports/YYYY-MM-DD.md` and `.html`.
+   saved to `reports/YYYY-MM-DD.md` and `.html`. The digest also links each query to the same
+   search on the MyCareersFuture website, so you can browse it by hand.
 
 ## Job boards
 
 | Source | Needs an API key | Notes |
 |---|---|---|
-| MyCareersFuture | No | Public JSON API. Best Singapore coverage, includes salary and level. |
+| MyCareersFuture | No | Public JSON API. Best Singapore coverage. Uses the portal's own filters (minimum salary, position levels, employment types), pages back through the whole `posted_within_days` window, and opens each new posting for its full description. |
 | JobStreet SG | No | JSON endpoint used by the website. Salary shown when the employer states it. |
 | LinkedIn | No | Public listing pages. Detail pages give description, level and type; capped per run. |
 | Adzuna | Free key | Turn on in `config.yaml` after adding `ADZUNA_APP_ID` / `ADZUNA_APP_KEY`. |
@@ -97,6 +98,21 @@ Other flags: `--no-email`, `--include-seen`, `--reset-seen`, `--print`, `-v` for
 The workflow (`.github/workflows/daily-job-search.yml`) runs at 08:00 Singapore time daily,
 emails the digest, and commits the report and the seen-jobs memory back to the repository.
 Scheduled workflows only run from the default branch, so merge this to `main` first.
+
+## MyCareersFuture search settings
+
+Under `sources.mycareersfuture` in `config.yaml`:
+
+| Setting | Default | Effect |
+|---|---|---|
+| `filters.salary_min` | 4000 | Portal filter. Keeps postings whose top of range reaches this. |
+| `filters.position_levels` | Manager, Senior Executive, Executive, Junior Executive | Portal filter. Other MCF labels: Middle Management, Senior Management, Professional, Fresh/entry level, Non-executive. |
+| `filters.employment_types` | none | Portal filter, for example `[Full Time, Permanent]`. |
+| `max_results` | 300 | Postings per query. Paging stops earlier once results are older than `posted_within_days`. |
+| `fetch_details` | true | Opens each posting for its description. The search API returns none, so keyword checks need this. |
+| `max_details` | 200 | Detail pages opened per run. Only postings not sent before, and not already excluded by title, are opened. |
+
+Portal filters remove postings before grading. Delete a filter line to let the grader score those postings instead.
 
 ## Grading details
 

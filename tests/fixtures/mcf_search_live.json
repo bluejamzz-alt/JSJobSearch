@@ -1,0 +1,83 @@
+{
+  "total": 2,
+  "results": [
+    {
+      "uuid": "0709329b471c3f23c76e5c305c37dc69",
+      "title": "Business Development Manager",
+      "postedCompany": {
+        "name": "SGO TAS PTE. LTD."
+      },
+      "hiringCompany": null,
+      "salary": {
+        "minimum": 6000,
+        "maximum": 10000,
+        "type": {
+          "salaryType": "Monthly"
+        }
+      },
+      "employmentTypes": [
+        {
+          "id": 8,
+          "employmentType": "Full Time"
+        }
+      ],
+      "positionLevels": [
+        {
+          "id": 3,
+          "position": "Manager"
+        }
+      ],
+      "categories": [
+        {
+          "category": "Others"
+        }
+      ],
+      "flexibleWorkArrangements": [],
+      "metadata": {
+        "jobPostId": "MCF-2026-1625118",
+        "newPostingDate": "2026-10-19",
+        "isHideSalary": false,
+        "jobDetailsUrl": "https://www.mycareersfuture.gov.sg/job/others/business-development-manager-sgo-tas-0709329b471c3f23c76e5c305c37dc69"
+      }
+    },
+    {
+      "uuid": "32d041b461d8161ccfb340194e0bc777",
+      "title": "Business Development Manager",
+      "postedCompany": {
+        "name": "MODU K PTE. LTD."
+      },
+      "hiringCompany": null,
+      "salary": {
+        "minimum": 6000,
+        "maximum": 10000,
+        "type": {
+          "salaryType": "Monthly"
+        }
+      },
+      "employmentTypes": [
+        {
+          "id": 7,
+          "employmentType": "Permanent"
+        }
+      ],
+      "positionLevels": [
+        {
+          "id": 3,
+          "position": "Manager"
+        }
+      ],
+      "categories": [
+        {
+          "category": "F&B"
+        }
+      ],
+      "flexibleWorkArrangements": [],
+      "metadata": {
+        "jobPostId": "MCF-2026-1624807",
+        "newPostingDate": "2026-10-19",
+        "isHideSalary": false,
+        "jobDetailsUrl": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/business-development-manager-modu-k-32d041b461d8161ccfb340194e0bc777"
+      }
+    }
+  ]
+}

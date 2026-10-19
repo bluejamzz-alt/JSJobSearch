@@ -31,8 +31,21 @@ sources:
   mycareersfuture:
     enabled: true
     endpoint: https://api.mycareersfuture.gov.sg/v2/search
+    detail_endpoint: https://api.mycareersfuture.gov.sg/v2/jobs/{uuid}
     page_size: 100
-    max_pages: 2
+    max_results: 300           # per query; paging stops earlier once postings are older than posted_within_days
+    # Same filters as the MyCareersFuture website search. Remove a line to stop filtering on it.
+    filters:
+      salary_min: 4000         # keeps postings whose top of range is at least this (MCF's own rule)
+      position_levels:         # MCF labels: Manager, Senior Executive, Executive, Junior Executive,
+        - Manager              #   Middle Management, Senior Management, Professional,
+        - Senior Executive     #   Fresh/entry level, Non-executive
+        - Executive
+        - Junior Executive
+      employment_types: []     # e.g. [Full Time, Permanent]
+    fetch_details: true        # open each new posting for its full description (needed for keyword checks)
+    max_details: 200           # cap per run; only postings not sent before and not excluded are opened
+    detail_workers: 4
   jobstreet:
     enabled: true
     endpoint: https://sg.jobstreet.com/api/jobsearch/v5/search
