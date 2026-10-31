@@ -4840,6 +4840,46 @@
       "title": "Business Development Associate",
       "url": "https://sg.jobstreet.com/job/95587560"
     },
+    "jobstreet:95610341": {
+      "company": "Informatica S.E.A. Pte Ltd",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative, Public Sector (Singapore Market)",
+      "url": "https://sg.jobstreet.com/job/95610341"
+    },
+    "jobstreet:95612522": {
+      "company": "Salesforce.com",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative, Public Sector (Singapore Market)",
+      "url": "https://sg.jobstreet.com/job/95612522"
+    },
+    "jobstreet:95613488": {
+      "company": "Search Personnel Pte Ltd",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Inside Sales Executive (E-commerce/Marketplace)",
+      "url": "https://sg.jobstreet.com/job/95613488"
+    },
+    "jobstreet:95614416": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/95614416"
+    },
+    "jobstreet:95614557": {
+      "company": "ALTRAMARKETING",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Marketing, Sales & Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/95614557"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -7912,6 +7952,14 @@
       "title": "Enterprise Account Executive",
       "url": "https://sg.linkedin.com/jobs/view/enterprise-account-executive-at-profound-4474842642"
     },
+    "linkedin:4474847216": {
+      "company": "Kpler",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Sales Development Representative \u2013 Maritime",
+      "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-%E2%80%93-maritime-at-kpler-4474847216"
+    },
     "linkedin:4474855150": {
       "company": "Vantive",
       "first_seen": "2026-10-10T05:24:07+00:00",
@@ -8552,6 +8600,14 @@
       "title": "Sales Development Representative \u2013 Financial",
       "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-%E2%80%93-financial-at-kpler-4477094124"
     },
+    "linkedin:4477121597": {
+      "company": "Horizon3.ai",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Sales Development Representative, Singapore",
+      "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-singapore-at-horizon3-ai-4477121597"
+    },
     "linkedin:4477122070": {
       "company": "CapitaLand",
       "first_seen": "2026-10-09T05:39:40+00:00",
@@ -8695,6 +8751,14 @@
       "tier": "A",
       "title": "Sales Executive (B2B / F&B Industry)",
       "url": "https://sg.linkedin.com/jobs/view/sales-executive-b2b-f-b-industry-at-foodmax-4477656491"
+    },
+    "linkedin:4477660583": {
+      "company": "Nasdaq",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Representative",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-nasdaq-4477660583"
     },
     "linkedin:4477680271": {
       "company": "Rolling Arrays",
@@ -9224,6 +9288,14 @@
       "title": "Business Development Representative",
       "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-auros-4482175265"
     },
+    "linkedin:4482296598": {
+      "company": "Workday",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative - Korea",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-representative-korea-at-workday-4482296598"
+    },
     "linkedin:4482422263": {
       "company": "LinkedIn",
       "first_seen": "2026-10-22T04:16:16+00:00",
@@ -9351,6 +9423,14 @@
       "tier": "B",
       "title": "Sales Development Representative - Singapore",
       "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-singapore-at-hud-4484812090"
+    },
+    "linkedin:4485305948": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative, Public Sector (Singapore Market)",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-representative-public-sector-singapore-market-at-salesforce-4485305948"
     },
     "mycareersfuture:0025a7dd529823dfd394115e35365e35": {
       "company": "ANRADUS PTE. LTD.",
@@ -14120,6 +14200,14 @@
       "title": "Indoor Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/indoor-sales-executive-greentech-international-345bc9307ea163b4e71b69e863bbef73"
     },
+    "mycareersfuture:345d9e080d4213328bdcc425e3d979d6": {
+      "company": "D-RON SINGAPORE PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Inside Sales Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/inside-sales-executive-d-ron-singapore-345d9e080d4213328bdcc425e3d979d6"
+    },
     "mycareersfuture:347afc887520a27c80ba0eee0d4e01fd": {
       "company": "MANPOWER STAFFING SERVICES (SINGAPORE) PTE LTD",
       "first_seen": "2026-09-27T04:51:54+00:00",
@@ -17304,6 +17392,14 @@
       "title": "Business Development Manager (Facilities Management)",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/business-development-manager-impact-bpo-services-5505d9ae05e0ac7223dc13bbc9a9cc4f"
     },
+    "mycareersfuture:5541bb456552363596d88da54424eacf": {
+      "company": "MCI CAREER  SERVICES PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Associate (Partnerships & Growth)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-associate-mci-career-services-5541bb456552363596d88da54424eacf"
+    },
     "mycareersfuture:556bcc3d1d18e6a4ad3b7b94fe877389": {
       "company": "APBA TG HUMAN RESOURCE PTE. LTD.",
       "first_seen": "2026-10-16T04:07:35+00:00",
@@ -17647,6 +17743,14 @@
       "tier": "A",
       "title": "\ud83d\udcbc\ud83d\udcca Sales & Marketing (Business Development)",
       "url": "https://www.mycareersfuture.gov.sg/job/marketing/%F0%9F%92%BC%F0%9F%93%8A-sales-marketing-simple-recruit-58f67779e796f5b4da72aa90b6f30d3c"
+    },
+    "mycareersfuture:5905485fa327514492c00c5341f4dfab": {
+      "company": "BANNER INDUSTRIES ASIA PACIFIC PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Inside Sales",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/inside-sales-banner-industries-asia-pacific-5905485fa327514492c00c5341f4dfab"
     },
     "mycareersfuture:591e4cd6ee5bc0643b0005175fb314db": {
       "company": "RMR INTERNATIONAL PRIVATE LIMITED",
@@ -18344,6 +18448,14 @@
       "title": "Business Development Manager ( Cloud Storage Solution )",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-manager-recruitpedia-625e68074bba9400eac273ac11e470f2"
     },
+    "mycareersfuture:62627113f842d08264fc74271f40bc2c": {
+      "company": "TSH MANAGEMENT SERVICES PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/others/business-development-associate-tsh-management-services-62627113f842d08264fc74271f40bc2c"
+    },
     "mycareersfuture:6281f08e874c899c803c7e240adb1ff0": {
       "company": "QUILL LEARNING PTE. LTD.",
       "first_seen": "2026-10-06T05:54:58+00:00",
@@ -18775,6 +18887,14 @@
       "tier": "A",
       "title": "Business Development Associate (Career Opportunities)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-associate-simple-recruit-68d3d3830bd58b5ac0d557b45e545553"
+    },
+    "mycareersfuture:68d437a3c252bdf77fc168c7208dee1b": {
+      "company": "RECRUIT EXPERT PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Inside Sales Executive (Automotive Parts, Up to $4,500)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/inside-sales-executive-recruit-expert-68d437a3c252bdf77fc168c7208dee1b"
     },
     "mycareersfuture:68ea355602400a509b33e908722e78ce": {
       "company": "SIMPLE RECRUIT",
@@ -20728,6 +20848,14 @@
       "title": "Business Development Executive - Tai Seng - Security System - 3972",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-tai-seng-security-system-3972-supreme-hr-advisory-7d720b513d5cec254e12bcd2209b474c"
     },
+    "mycareersfuture:7d8b549bbdaa2f212cb61d933e4e2748": {
+      "company": "THE SUPREME HR ADVISORY PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Regional Inside Sales Executive (Agrochemical) - LCYL",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/regional-inside-sales-executive-lcyl-supreme-hr-advisory-7d8b549bbdaa2f212cb61d933e4e2748"
+    },
     "mycareersfuture:7d93d19d31149958f0fe24c02a9b0e0f": {
       "company": "KNS CONSTRUCTION & ENGINEERING PTE. LTD.",
       "first_seen": "2026-10-10T05:24:07+00:00",
@@ -21311,6 +21439,14 @@
       "tier": "A",
       "title": "Sales Executive ( Indoor Sales )",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-executive-aj2-holdings-830e4200beae33aeab3c1cc8bac9fc7b"
+    },
+    "mycareersfuture:831efce4201369e66262f313864c90a3": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-associate-royal-org-831efce4201369e66262f313864c90a3"
     },
     "mycareersfuture:8323a6854ff472d7d64aadb90ded2456": {
       "company": "SIMPLE RECRUIT",
@@ -24775,6 +24911,14 @@
       "tier": "A",
       "title": "Business Development Executive \u2013 Industrial Solutions",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-%E2%80%93-industrial-solutions-allinton-engineering-trading-ab0c3e176180c6495c8f86b688c18854"
+    },
+    "mycareersfuture:ab207369c2d61bac5a69fbbc0e49eab2": {
+      "company": "VIGNE GROUP PTE. LTD.",
+      "first_seen": "2026-10-31T05:03:50+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate \u2013 Corporate Healthcare",
+      "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-associate-%E2%80%93-corporate-healthcare-vigne-group-ab207369c2d61bac5a69fbbc0e49eab2"
     },
     "mycareersfuture:ab2ed7998c9adfa686fe1a4ea0b54122": {
       "company": "LH MANPOWER SERVICE PTE. LTD.",
@@ -32841,5 +32985,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-10-30T05:21:20+00:00"
+  "updated_at": "2026-10-31T05:03:50+00:00"
 }
