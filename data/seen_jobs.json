@@ -4880,6 +4880,22 @@
       "title": "Marketing, Sales & Business Development Associate",
       "url": "https://sg.jobstreet.com/job/95614557"
     },
+    "jobstreet:95619967": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-11-01T05:34:33+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/95619967"
+    },
+    "jobstreet:95620270": {
+      "company": "ROYAL ORG PTE LTD",
+      "first_seen": "2026-11-01T05:34:33+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Sales Development Executive",
+      "url": "https://sg.jobstreet.com/job/95620270"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -13928,6 +13944,14 @@
       "title": "Business Development Executive \u2013 Events",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-%E2%80%93-events-princes-landscape-312f23f670f00867ee55eac59f30c107"
     },
+    "mycareersfuture:31ca71c2210368ecefed6e650097bf96": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-11-01T05:34:33+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Sales Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-sales-development-executive-royal-org-31ca71c2210368ecefed6e650097bf96"
+    },
     "mycareersfuture:31e40a460f187cb4c8b0c4c1990a2ba6": {
       "company": "AURATALENTSG",
       "first_seen": "2026-09-25T04:31:13+00:00",
@@ -14359,6 +14383,14 @@
       "tier": "A",
       "title": "Business Development Executive \ud83d\udd74\ud83c\udffb",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-executive-%F0%9F%95%B4%F0%9F%8F%BB-altius-org-36bf5d5ee48212e8a4386dee38baca35"
+    },
+    "mycareersfuture:36f66ecb59e224a25bd9d037d8beea4e": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-11-01T05:34:33+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate (Career Opportunities)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-associate-simple-recruit-36f66ecb59e224a25bd9d037d8beea4e"
     },
     "mycareersfuture:37104e36d7322033fd528a37d8b581cd": {
       "company": "EG ENGINEERING PTE. LTD.",
@@ -32985,5 +33017,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-10-31T05:03:50+00:00"
+  "updated_at": "2026-11-01T05:34:33+00:00"
 }
