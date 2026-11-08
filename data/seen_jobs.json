@@ -5024,6 +5024,22 @@
       "title": "Business Development Associate",
       "url": "https://sg.jobstreet.com/job/95754708"
     },
+    "jobstreet:95759137": {
+      "company": "Avaron Asset Management",
+      "first_seen": "2026-11-08T05:38:13+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Sales Development Executive",
+      "url": "https://sg.jobstreet.com/job/95759137"
+    },
+    "jobstreet:95760362": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-11-08T05:38:13+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/95760362"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -20624,6 +20640,14 @@
       "title": "Business Development Manager (Contract Logistics) [EL]",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/business-development-manager-el-wecruit-75ce851ac2304605d3000b058550a659"
     },
+    "mycareersfuture:75de754a6846a73b4845fb0df2f79301": {
+      "company": "GROWTH TALENT RECRUIT",
+      "first_seen": "2026-11-08T05:38:13+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Development Executive",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/sales-development-executive-growth-talent-recruit-75de754a6846a73b4845fb0df2f79301"
+    },
     "mycareersfuture:762041e7ddb44dad03015697a26654a2": {
       "company": "AMICORP ASSET MANAGEMENT SINGAPORE PTE. LTD.",
       "first_seen": "2026-10-19T04:13:27+00:00",
@@ -24287,6 +24311,14 @@
       "tier": "A",
       "title": "Business Development Executive (Software/Cyber Security) - VTAL",
       "url": "https://www.mycareersfuture.gov.sg/job/admin/business-development-executive-vtal-recruitpedia-9dd834c861a1d5ec58dd35e4bae8780c"
+    },
+    "mycareersfuture:9dd9c7c177c72b25ae25e724ea00d483": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-11-08T05:38:13+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate (Career Opportunities)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-associate-simple-recruit-9dd9c7c177c72b25ae25e724ea00d483"
     },
     "mycareersfuture:9de3bad726915790488748c24f3ad537": {
       "company": "RECRUITFLASH PTE. LTD.",
@@ -33561,5 +33593,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-11-07T05:38:39+00:00"
+  "updated_at": "2026-11-08T05:38:13+00:00"
 }
