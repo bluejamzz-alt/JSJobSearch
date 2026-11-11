@@ -5072,6 +5072,38 @@
       "title": "Sales Development Associate",
       "url": "https://sg.jobstreet.com/job/95782871"
     },
+    "jobstreet:95810032": {
+      "company": "MESITIS P.T.E. L.T.D.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Development Representative",
+      "url": "https://sg.jobstreet.com/job/95810032"
+    },
+    "jobstreet:95811735": {
+      "company": "DOCUSIGN INTERNATIONAL",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Market Development Representative",
+      "url": "https://sg.jobstreet.com/job/95811735"
+    },
+    "jobstreet:95821732": {
+      "company": "Seeq Corporation",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 73.3,
+      "tier": "B",
+      "title": "Business Development Representative - Singapore",
+      "url": "https://sg.jobstreet.com/job/95821732"
+    },
+    "jobstreet:95826591": {
+      "company": "bentotheright",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Sales Development Representative (Warm Leads Only)",
+      "url": "https://sg.jobstreet.com/job/95826591"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -9712,6 +9744,14 @@
       "title": "Business Development Representative",
       "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-workday-4485888723"
     },
+    "linkedin:4485895460": {
+      "company": "Workday",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative - Hong Kong",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-representative-hong-kong-at-workday-4485895460"
+    },
     "linkedin:4486290815": {
       "company": "Service Connections HR Consultancy Pte Ltd",
       "first_seen": "2026-11-07T05:38:39+00:00",
@@ -9736,6 +9776,30 @@
       "title": "Business Development Representative",
       "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-outsystems-4487265316"
     },
+    "linkedin:4487472083": {
+      "company": "Check Point Software",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Representative",
+      "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-check-point-software-4487472083"
+    },
+    "linkedin:4487859975": {
+      "company": "AyNo Learn Educational Academy",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Sales Development Representative / Business Development Representative / Inside Sales Executive",
+      "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-business-development-representative-inside-sales-executive-at-ayno-learn-educational-academy-4487859975"
+    },
+    "linkedin:4487892444": {
+      "company": "Coder",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Senior Sales Development Representative (APAC)",
+      "url": "https://sg.linkedin.com/jobs/view/senior-sales-development-representative-apac-at-coder-4487892444"
+    },
     "linkedin:4488099400": {
       "company": "NinjaOne",
       "first_seen": "2026-11-06T06:03:49+00:00",
@@ -9743,6 +9807,30 @@
       "tier": "B",
       "title": "Sales Development Representative - Singapore",
       "url": "https://sg.linkedin.com/jobs/view/sales-development-representative-singapore-at-ninjaone-4488099400"
+    },
+    "linkedin:4488354983": {
+      "company": "Docusign",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Market Development Representative",
+      "url": "https://sg.linkedin.com/jobs/view/market-development-representative-at-docusign-4488354983"
+    },
+    "linkedin:4488391389": {
+      "company": "Flagright",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Senior Business Development Representative - APAC",
+      "url": "https://sg.linkedin.com/jobs/view/senior-business-development-representative-apac-at-flagright-4488391389"
+    },
+    "linkedin:4488651236": {
+      "company": "Singapore Crawfish Pte Ltd",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 53.3,
+      "tier": "C",
+      "title": "Lead Generation Specialist",
+      "url": "https://sg.linkedin.com/jobs/view/lead-generation-specialist-at-singapore-crawfish-pte-ltd-4488651236"
     },
     "linkedin:4489135037": {
       "company": "Canonical",
@@ -9759,6 +9847,14 @@
       "tier": "B",
       "title": "Business Development Representative",
       "url": "https://sg.linkedin.com/jobs/view/business-development-representative-at-canonical-4489179968"
+    },
+    "linkedin:4489481002": {
+      "company": "Canonical",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 73.3,
+      "tier": "B",
+      "title": "Graduate Sales Development Representative",
+      "url": "https://sg.linkedin.com/jobs/view/graduate-sales-development-representative-at-canonical-4489481002"
     },
     "mycareersfuture:0025a7dd529823dfd394115e35365e35": {
       "company": "ANRADUS PTE. LTD.",
@@ -10215,6 +10311,14 @@
       "tier": "A",
       "title": "Senior Sales Executive [FMCG / Modern Trade]",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/senior-sales-executive-fmcg-modern-trade-good-job-creations-042f4ebbe079f49657639536a6de2396"
+    },
+    "mycareersfuture:04438e8b2009b65da6f73427146dbb2b": {
+      "company": "THE SUPREME HR ADVISORY PTE. LTD.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Regional Inside Sales Executive (Agrochemical) - LCYL",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/regional-inside-sales-executive-lcyl-supreme-hr-advisory-04438e8b2009b65da6f73427146dbb2b"
     },
     "mycareersfuture:044660096bca20e0860c90ea902c3e29": {
       "company": "ROYAL ORG PTE. LTD.",
@@ -11984,6 +12088,14 @@
       "title": "Business Development Manager (Commercial Fit-Out/Renovation)",
       "url": "https://www.mycareersfuture.gov.sg/job/architecture/business-development-manager-recruit-expert-17ace9de579af2cb9db80dc26d026942"
     },
+    "mycareersfuture:17e9095b1a9782319bd6003a602d95ae": {
+      "company": "WORKDAY SINGAPORE PTE. LTD.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Sales Development Representative - Korea",
+      "url": "https://www.mycareersfuture.gov.sg/job/others/sales-development-representative-korea-workday-singapore-17e9095b1a9782319bd6003a602d95ae"
+    },
     "mycareersfuture:180a432fd1adeba3b5fe2db43e87c498": {
       "company": "HELIUS TECHNOLOGIES PTE. LTD.",
       "first_seen": "2026-10-06T05:54:58+00:00",
@@ -13592,6 +13704,14 @@
       "title": "Business Development Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/business-development-executive-princes-landscape-2844f962f6eeff7aa0fdcb190f424867"
     },
+    "mycareersfuture:2858d6b6b00f310a321b4bca8abdce58": {
+      "company": "NEXO CREATIVE",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "\ud83d\udd25ASAP\ud83d\udd25 Business Development Associate (\ud83d\udcaaFun Environment\ud83d\udcaa \ud83d\udcb8High Comms\ud83d\udcb8)",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/%F0%9F%94%A5asap%F0%9F%94%A5-business-development-associate-nexo-creative-2858d6b6b00f310a321b4bca8abdce58"
+    },
     "mycareersfuture:287c851c32f0fe5df4451f582e0e0577": {
       "company": "ASCEND MARKETING SOLUTIONS",
       "first_seen": "2026-10-14T04:27:57+00:00",
@@ -14287,6 +14407,14 @@
       "tier": "A",
       "title": "Regional Sales Manager (Contract Logistic / Freight Forwarding) - Center - VTTO",
       "url": "https://www.mycareersfuture.gov.sg/job/logistics/regional-sales-manager-center-vtto-recruitpedia-30ab98be9995c97fc2e1683ce292154d"
+    },
+    "mycareersfuture:30acaba25a1f89fec9365a168300b8ac": {
+      "company": "SIMPLE RECRUIT",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate (Career Opportunities)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-associate-simple-recruit-30acaba25a1f89fec9365a168300b8ac"
     },
     "mycareersfuture:30b97693649d16860c6c2ee6a1192e35": {
       "company": "DIGITAL COLLECTION TRADING PTE. LTD.",
@@ -16999,6 +17127,14 @@
       "tier": "A",
       "title": "Project Sales Executive",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/project-sales-executive-linkgas-engineering-enterprise-4b6b11b786cf2df079762609417e5fad"
+    },
+    "mycareersfuture:4b7494af7c33955f7cb65bef442f3668": {
+      "company": "TITAN COLLECTIVE",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "\u2728 [GREAT TEAM CULTURE] Business Development Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/%E2%9C%A8-great-team-culture-business-development-associate-titan-collective-4b7494af7c33955f7cb65bef442f3668"
     },
     "mycareersfuture:4b82361acf0c54a298842a6ab0b4f5e6": {
       "company": "THE SUPREME HR ADVISORY PTE. LTD.",
@@ -23312,6 +23448,14 @@
       "title": "Customer Service & Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/customer-service-sales-manager-wonderlit-education-centre-90756af632d5a401b57ba620ec638031"
     },
+    "mycareersfuture:90a8155bae35d34d7f5e18170b51eb60": {
+      "company": "CLEMVISUAL",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "\ud83d\udd25 Sales Development Associate",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/%F0%9F%94%A5-sales-development-associate-clemvisual-90a8155bae35d34d7f5e18170b51eb60"
+    },
     "mycareersfuture:90ad37f9c23b760487ab513eb9c17990": {
       "company": "MAX OUT MARKETING",
       "first_seen": "2026-10-15T04:12:13+00:00",
@@ -23807,6 +23951,14 @@
       "tier": "A",
       "title": "SALES MANAGER",
       "url": "https://www.mycareersfuture.gov.sg/job/sales/sales-manager-sun-raise-foods-95d73624591a975ee838b1c189c86982"
+    },
+    "mycareersfuture:95e70affeeef2fbc4d8583db446a620a": {
+      "company": "THE ONE PERCENT SG PTE. LTD.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "BUSINESS DEVELOPMENT ASSOCIATE | ENTRY LEVEL",
+      "url": "https://www.mycareersfuture.gov.sg/job/marketing/business-development-associate-entry-level-one-percent-sg-95e70affeeef2fbc4d8583db446a620a"
     },
     "mycareersfuture:96053d1a5c3f4fc2eda64f31b685d630": {
       "company": "ALTIUS ORG",
@@ -26055,6 +26207,14 @@
       "tier": "A",
       "title": "Pharmaceutical Sales Executive | Medical Sales #HDC1",
       "url": "https://www.mycareersfuture.gov.sg/job/healthcare/pharmaceutical-sales-executive-medical-sales-hdc1-recruit-express-afa731f6534c35e0b3edabb279daa22a"
+    },
+    "mycareersfuture:afc04cddff2f2f9cda0c8f3648d60302": {
+      "company": "WORKDAY SINGAPORE PTE. LTD.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Senior Sales Development Representative",
+      "url": "https://www.mycareersfuture.gov.sg/job/others/senior-sales-development-representative-workday-singapore-afc04cddff2f2f9cda0c8f3648d60302"
     },
     "mycareersfuture:afc90db4335962bf41708eb00c9f145a": {
       "company": "SEARCH PERSONNEL PRIVATE LIMITED",
@@ -31112,6 +31272,14 @@
       "title": "Business Development Executive (Office Printers & IT Solutions/ MNC)",
       "url": "https://www.mycareersfuture.gov.sg/job/marketing/business-development-executive-people-profilers-e473225b7482999010a712a69e44ca3c"
     },
+    "mycareersfuture:e474af6e093e9ab9d562606e417fbc04": {
+      "company": "ROYAL ORG PTE. LTD.",
+      "first_seen": "2026-11-11T05:45:02+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Sales Development Associate (Entry Level)",
+      "url": "https://www.mycareersfuture.gov.sg/job/events/sales-development-associate-royal-org-e474af6e093e9ab9d562606e417fbc04"
+    },
     "mycareersfuture:e48363cc9c35afdf80939ccdc99c6596": {
       "company": "RECRUITPEDIA PTE. LTD.",
       "first_seen": "2026-10-08T05:36:16+00:00",
@@ -33737,5 +33905,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-11-10T06:56:50+00:00"
+  "updated_at": "2026-11-11T05:45:02+00:00"
 }
