@@ -5264,6 +5264,30 @@
       "title": "Inside Sales Representative",
       "url": "https://sg.jobstreet.com/job/96011357"
     },
+    "jobstreet:96021835": {
+      "company": "Asiaray Advertising Media Limited",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Sales Development Representative",
+      "url": "https://sg.jobstreet.com/job/96021835"
+    },
+    "jobstreet:96023400": {
+      "company": "HUMAN UNION DATA SINGAPORE PTE. LTD.",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 73.3,
+      "tier": "B",
+      "title": "Business Development Executive (Outbound Sales)",
+      "url": "https://sg.jobstreet.com/job/96023400"
+    },
+    "jobstreet:96025147": {
+      "company": "Maltem Asia Pte. Ltd.",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 73.3,
+      "tier": "B",
+      "title": "Inside Sales Executive (Tech Consultancy)",
+      "url": "https://sg.jobstreet.com/job/96025147"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -10279,6 +10303,14 @@
       "tier": "B",
       "title": "Inside Sales Executive",
       "url": "https://sg.linkedin.com/jobs/view/inside-sales-executive-at-maltem-asia-pacific-4492549708"
+    },
+    "linkedin:4492971674": {
+      "company": "Matterport",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Inside Sales Account Executive, Matterport - Singapore",
+      "url": "https://sg.linkedin.com/jobs/view/inside-sales-account-executive-matterport-singapore-at-matterport-4492971674"
     },
     "mycareersfuture:0025a7dd529823dfd394115e35365e35": {
       "company": "ANRADUS PTE. LTD.",
@@ -16935,6 +16967,14 @@
       "tier": "A",
       "title": "Business Development & Sales (No Experience Needed)",
       "url": "https://www.mycareersfuture.gov.sg/job/events/business-development-sales-royal-org-42e87349950ab9895b6fa5f0c4848ef9"
+    },
+    "mycareersfuture:43038086dda78dd90eba2723c1e8a0d6": {
+      "company": "ANRADUS PTE. LTD.",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Inside Sales #10116",
+      "url": "https://www.mycareersfuture.gov.sg/job/others/inside-sales-10116-anradus-43038086dda78dd90eba2723c1e8a0d6"
     },
     "mycareersfuture:43351b828ca19bfc916b833dbda72052": {
       "company": "SMART-CORE CLOUD PTE. LTD.",
@@ -34808,6 +34848,14 @@
       "title": "Business Development Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/customer-service/business-development-manager-cuca-health-wellness-fb9da9fecb9e8c5ec25bdf272af857b9"
     },
+    "mycareersfuture:fbcc459aee7c9de95d5e963826da974c": {
+      "company": "RECRUIT EXPERT PTE. LTD.",
+      "first_seen": "2026-11-21T06:43:54+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Inside Sales Executive (Automotive Parts, Up to $4,500)",
+      "url": "https://www.mycareersfuture.gov.sg/job/sales/inside-sales-executive-recruit-expert-fbcc459aee7c9de95d5e963826da974c"
+    },
     "mycareersfuture:fbf1349820fb88f974c4e88762e0bbe7": {
       "company": "ALTIUS ORG",
       "first_seen": "2026-10-09T05:39:40+00:00",
@@ -35273,5 +35321,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-11-20T06:52:42+00:00"
+  "updated_at": "2026-11-21T06:43:54+00:00"
 }
