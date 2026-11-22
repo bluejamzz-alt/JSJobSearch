@@ -5288,6 +5288,14 @@
       "title": "Inside Sales Executive (Tech Consultancy)",
       "url": "https://sg.jobstreet.com/job/96025147"
     },
+    "jobstreet:96038986": {
+      "company": "AURATALENTSG",
+      "first_seen": "2026-11-22T06:12:00+00:00",
+      "score": 60.0,
+      "tier": "B",
+      "title": "Business Development Associate",
+      "url": "https://sg.jobstreet.com/job/96038986"
+    },
     "linkedin:3424015049": {
       "company": "Fusion Worldwide",
       "first_seen": "2026-10-12T05:28:40+00:00",
@@ -24632,6 +24640,14 @@
       "title": "Inside Sales Specialist",
       "url": "https://www.mycareersfuture.gov.sg/job/building-construction/inside-sales-specialist-ectivise-solutions-929e2298692681109e90b15896753be5"
     },
+    "mycareersfuture:92a6d7b981b0bf5f20bfd3fa0f2e37e2": {
+      "company": "MARKETOVA MARKETING SOLUTION",
+      "first_seen": "2026-11-22T06:12:00+00:00",
+      "score": 80.0,
+      "tier": "A",
+      "title": "Business Development Associate (No Experience Needed)",
+      "url": "https://www.mycareersfuture.gov.sg/job/advertising/business-development-associate-marketova-marketing-solution-92a6d7b981b0bf5f20bfd3fa0f2e37e2"
+    },
     "mycareersfuture:92f95fa511b8113b5428963732d3d8f1": {
       "company": "CAREER ZOOM PTE. LTD.",
       "first_seen": "2026-10-15T04:12:13+00:00",
@@ -33232,6 +33248,14 @@
       "title": "Sales Manager",
       "url": "https://www.mycareersfuture.gov.sg/job/wholesale-trade/sales-manager-sinolu-global-trade-eb7a7db6434a75191a77417d1a682741"
     },
+    "mycareersfuture:eb8dbcfd1520d52571162e093b0c299c": {
+      "company": "STRIKE TALENTS PTE. LTD.",
+      "first_seen": "2026-11-22T06:12:00+00:00",
+      "score": 66.7,
+      "tier": "B",
+      "title": "Business Development Associate | No Experience Needed",
+      "url": "https://www.mycareersfuture.gov.sg/job/education-training/business-development-associate-experience-needed-innovation-organization-eb8dbcfd1520d52571162e093b0c299c"
+    },
     "mycareersfuture:eb9db3fbdcaac29d043aa44b42e3172b": {
       "company": "SINGAPORE SHIP INDUSTRY & TRADING PTE. LTD.",
       "first_seen": "2026-10-02T05:09:05+00:00",
@@ -35321,5 +35345,5 @@
       "url": "https://www.mycareersfuture.gov.sg/job/general-management/business-development-associate-oneberry-technologies-fffe0448ba00c8a42daa12e871f7c66a"
     }
   },
-  "updated_at": "2026-11-21T06:43:54+00:00"
+  "updated_at": "2026-11-22T06:12:00+00:00"
 }

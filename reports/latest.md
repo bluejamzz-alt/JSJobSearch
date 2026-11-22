@@ -1,7 +1,7 @@
-# Job Digest – Sat 21 Nov 2026 (SGT)
+# Job Digest – Sun 22 Nov 2026 (SGT)
 
-**6 new matches** · Tier A: 1 · Tier B: 5 · Tier C: 0
-Fetched 716 postings (MyCareersFuture 236, JobStreet 343, LinkedIn 137); 337 duplicates, 311 excluded by must-haves, 0 below Tier C, 62 already sent earlier.
+**3 new matches** · Tier A: 1 · Tier B: 2 · Tier C: 0
+Fetched 715 postings (MyCareersFuture 240, JobStreet 338, LinkedIn 137); 324 duplicates, 322 excluded by must-haves, 0 below Tier C, 66 already sent earlier.
 
 Score = requirements met ÷ total. Tier A ≥ 80%, Tier B ≥ 60%, Tier C ≥ 40%.
 
@@ -11,15 +11,12 @@ Open the same searches on the portal: [MyCareersFuture: sales development repres
 
 | # | Score | Title | Company | Salary | Level | Source | Posted | Gaps |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 11/12 (80%) | [Inside Sales #10116](https://www.mycareersfuture.gov.sg/job/others/inside-sales-10116-anradus-43038086dda78dd90eba2723c1e8a0d6) | ANRADUS PTE. LTD. | SGD 2,100-4,000/mo | fresh | MyCareersFuture | 20 Nov | Fintech / payments / SME / merchant domain |
+| 1 | 11/12 (80%) | [Business Development Associate (No Experience Needed)](https://www.mycareersfuture.gov.sg/job/advertising/business-development-associate-marketova-marketing-solution-92a6d7b981b0bf5f20bfd3fa0f2e37e2) | MARKETOVA MARKETING SOLUTION | SGD 2,800-5,000/mo | fresh | MyCareersFuture | 22 Nov | Fintech / payments / SME / merchant domain |
 
-## Tier B – good match (5)
+## Tier B – good match (2)
 
 | # | Score | Title | Company | Salary | Level | Source | Posted | Gaps |
 |---|---|---|---|---|---|---|---|---|
-| 2 | 10/12 (73%) | [Business Development Executive (Outbound Sales)](https://sg.jobstreet.com/job/96023400) | HUMAN UNION DATA SINGAPORE PTE. LTD. | not stated | executive | JobStreet | 20 Nov | Fintech / payments / SME / merchant domain, Base salary can reach SGD 4,000 / month |
-| 3 | 10/12 (73%) | [Inside Sales Executive (Tech Consultancy)](https://sg.jobstreet.com/job/96025147) | Maltem Asia Pte. Ltd. | not stated | executive | JobStreet | 20 Nov | Fintech / payments / SME / merchant domain, Base salary can reach SGD 4,000 / month |
-| 4 | 10/12 (67%) | [Inside Sales Executive (Automotive Parts, Up to $4,500)](https://www.mycareersfuture.gov.sg/job/sales/inside-sales-executive-recruit-expert-fbcc459aee7c9de95d5e963826da974c) | RECRUIT EXPERT PTE. LTD. | SGD 3,500-4,500/mo | executive | MyCareersFuture | 20 Nov | Fintech / payments / SME / merchant domain, Commission / incentives on top of base |
-| 5 | 9/12 (60%) | [Sales Development Representative](https://sg.jobstreet.com/job/96021835) | Asiaray Advertising Media Limited | not stated | executive | JobStreet | 20 Nov | Fintech / payments / SME / merchant domain, Base salary can reach SGD 4,000 / month, Commission / incentives on top of base |
-| 6 | 9/12 (60%) | [Inside Sales Account Executive, Matterport - Singapore](https://sg.linkedin.com/jobs/view/inside-sales-account-executive-matterport-singapore-at-matterport-4492971674) | Matterport | not stated | executive | LinkedIn | 20 Nov | Fintech / payments / SME / merchant domain, Base salary can reach SGD 4,000 / month, Commission / incentives on top of base |
+| 2 | 10/12 (67%) | [Business Development Associate \| No Experience Needed](https://www.mycareersfuture.gov.sg/job/education-training/business-development-associate-experience-needed-innovation-organization-eb8dbcfd1520d52571162e093b0c299c) | STRIKE TALENTS PTE. LTD. | SGD 2,800-5,000/mo | fresh | MyCareersFuture | 21 Nov | Fintech / payments / SME / merchant domain, Commission / incentives on top of base |
+| 3 | 9/12 (60%) | [Business Development Associate](https://sg.jobstreet.com/job/96038986) | AURATALENTSG | not stated | executive | JobStreet | 21 Nov | Fintech / payments / SME / merchant domain, Base salary can reach SGD 4,000 / month, Commission / incentives on top of base |
 
